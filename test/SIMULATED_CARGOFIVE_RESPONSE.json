@@ -1,0 +1,4447 @@
+{
+  "offers": {
+    "offer_id": null,
+    "offer_uuid": "98ed9cf2-6ccf-422b-8cea-4c69fd5a8787",
+    "custom_offer_id": null,
+    "offer_status": null,
+    "offer_valid_from": null,
+    "offer_valid_to": null,
+    "type": "FCL",
+    "incoterm_id": null,
+    "incoterm": null,
+    "goods_value": null,
+    "goods_value_currency": null,
+    "offer_currency": "USD",
+    "offer_currency_id": 149,
+    "freight_all_in": true,
+    "payment_conditions": null,
+    "language_id": 1,
+    "language_iso": "en",
+    "created_at": null,
+    "updated_at": null,
+    "search_id": "5514c2ea-ecce-40be-939d-d7a226fae696",
+    "containers": [
+      {
+        "quantity": 1,
+        "id": 1,
+        "size": null,
+        "height": null,
+        "type": "20 DV",
+        "iso": "20DV",
+        "name": "20 DV",
+        "label": "20DV",
+        "weight": 15000,
+        "weight_unit": "Kg",
+        "soc": false,
+        "status": "Valid"
+      }
+    ],
+    "lcl_details": null,
+    "client_details": null,
+    "offer_owner": {
+      "id": 3047,
+      "name": "Nitzan",
+      "last_name": "Salingar",
+      "email": "nitzan@monada.ai",
+      "phone": null,
+      "delegation_id": 552,
+      "delegation_name": "International Logistics Services Main Office",
+      "delegation_address": null,
+      "customer_id": 343,
+      "customer_name": "International Logistics Services"
+    },
+    "terms_and_conditions": null,
+    "additional_data": {
+      "failed_locations": null,
+      "conversion_rates": []
+    },
+    "rates": [
+      {
+        "product_offer": {
+          "rate_uuid": "e6f6b9cb-fe87-4369-acd4-be38882156fb",
+          "rate_status": "Valid",
+          "rate_source": "Default",
+          "service_type": "Transshipment",
+          "main_carrier_scac": "MAEU",
+          "main_carrier_id": 1365,
+          "main_carrier_uuid": "ed473900-d75d-4f97-b7cf-6c7d20867264",
+          "main_carrier_code": "MSK",
+          "main_carrier_name": "Maersk",
+          "main_carrier_logo": "https://cargofive-production-21.s3.eu-central-1.amazonaws.com/imgcarrier/maersk.png",
+          "main_source_type": "Api",
+          "main_product_type": null,
+          "main_product_name": "MAERSK SPOT",
+          "codification_type": null,
+          "origin_port_id": 296,
+          "origin_port_display_name": "Haifa",
+          "origin_port_unlocode": "ILHFA",
+          "origin_location_id": null,
+          "origin_location_display_name": null,
+          "origin_location_unlocode": null,
+          "destination_port_id": 580,
+          "destination_port_display_name": "Lisbon",
+          "destination_port_unlocode": "PTLIS",
+          "destination_location_id": null,
+          "destination_location_display_name": null,
+          "destination_location_unlocode": null,
+          "origin_service_type": "CY",
+          "destination_service_type": "CY",
+          "via_port": [],
+          "hazardous": false,
+          "kind_of_cargo_id": null,
+          "kind_of_cargo": null,
+          "commodity": null,
+          "service_name": null,
+          "rate_details": {
+            "contract_uuid": null,
+            "carrier_offer_id": "O_P02fmsdra",
+            "reference": null,
+            "contract_status": null,
+            "file": null,
+            "future_date": false,
+            "named_accounts": [],
+            "additional_data": {
+              "link": "https://www.maersk.com/prices-and-quotes?utm_source=affiliate&utm_medium=referral&utm_campaign=cargofive&utm_id=cargofive",
+              "book_now_link": "https://www.maersk.com/prices-and-quotes?utm_source=affiliate&utm_medium=referral&utm_campaign=cargofive&utm_id=cargofive"
+            }
+          }
+        },
+        "product_price": {
+          "valid_from": null,
+          "valid_to": null,
+          "freight": {
+            "show_charges": true,
+            "charges": [
+              {
+                "show_charge": true,
+                "charge_uuid": "62c0be2b-7118-4a3a-a4e0-e839927cd6a2",
+                "agent_id": null,
+                "agent_name": null,
+                "carrier_id": 1365,
+                "source": "Api",
+                "carrier_uuid": "ed473900-d75d-4f97-b7cf-6c7d20867264",
+                "carrier_name": "MAERSK SPOT",
+                "charge_code": "BAS",
+                "charge_name": "Ocean Freight",
+                "charge_hazardous": false,
+                "contract_charge_uuid": "83351d08-12b2-464e-b4b6-1b8ed2aaadf6",
+                "contract_reference": null,
+                "surcharge_uuid": "a61b088f-669e-4b3b-ba5f-0337af6c706c",
+                "carrier_scac": null,
+                "rate_type_code": "freight",
+                "rate_basis": "Per Container",
+                "rate_basis_value": null,
+                "shipment_type": null,
+                "shipment_type_id": null,
+                "invoice_code": "Ocean Freight",
+                "payment_method": null,
+                "charge_remarks": null,
+                "quote_charge_remarks": null,
+                "inclusions": null,
+                "valid_from": null,
+                "valid_to": null,
+                "unit_price_currency": "USD",
+                "invoice_price_currency": "USD",
+                "commodity": null,
+                "service_name": null,
+                "tariffs": [
+                  {
+                    "quantity": 1,
+                    "container_iso": "20DV",
+                    "container_name": "20 DV",
+                    "unit_price": 302,
+                    "unit_price_usd": 302,
+                    "unit_profit": 0,
+                    "unit_profit_usd": 0,
+                    "profit_percentage": 0,
+                    "invoice_price": 302,
+                    "invoice_price_usd": 302,
+                    "total_price_per_qty": 302,
+                    "total_price_usd_per_qty": 302,
+                    "total_profit_per_qty": 0,
+                    "total_profit_usd_per_qty": 0,
+                    "total_invoice_price_per_qty": 302,
+                    "total_invoice_price_usd_per_qty": 302,
+                    "lcl_attributes": null
+                  }
+                ],
+                "charge_attributes": {
+                  "contract_rate_adjustment": 0,
+                  "charge_parent_type": null,
+                  "parent_uuid": null,
+                  "children_uuids": []
+                }
+              },
+              {
+                "show_charge": true,
+                "charge_uuid": "27d7f0d8-0c92-402c-bbfa-fdc8eb7c22e3",
+                "agent_id": null,
+                "agent_name": null,
+                "carrier_id": 1365,
+                "source": "Api",
+                "carrier_uuid": "ed473900-d75d-4f97-b7cf-6c7d20867264",
+                "carrier_name": "MAERSK SPOT",
+                "charge_code": "NEF",
+                "charge_name": "Emission Fee",
+                "charge_hazardous": false,
+                "contract_charge_uuid": "0522cff4-edc8-42d7-8c9c-19db56204a5c",
+                "contract_reference": null,
+                "surcharge_uuid": "9bafb397-e060-41d8-827f-a40335871bbd",
+                "carrier_scac": null,
+                "rate_type_code": "freight_surcharge",
+                "rate_basis": "Per Container",
+                "rate_basis_value": null,
+                "shipment_type": null,
+                "shipment_type_id": null,
+                "invoice_code": "Emission Fee",
+                "payment_method": null,
+                "charge_remarks": null,
+                "quote_charge_remarks": null,
+                "inclusions": null,
+                "valid_from": null,
+                "valid_to": null,
+                "unit_price_currency": "USD",
+                "invoice_price_currency": "USD",
+                "commodity": null,
+                "service_name": null,
+                "tariffs": [
+                  {
+                    "quantity": 1,
+                    "container_iso": "20DV",
+                    "container_name": "20 DV",
+                    "unit_price": 28,
+                    "unit_price_usd": 28,
+                    "unit_profit": 0,
+                    "unit_profit_usd": 0,
+                    "profit_percentage": 0,
+                    "invoice_price": 28,
+                    "invoice_price_usd": 28,
+                    "total_price_per_qty": 28,
+                    "total_price_usd_per_qty": 28,
+                    "total_profit_per_qty": 0,
+                    "total_profit_usd_per_qty": 0,
+                    "total_invoice_price_per_qty": 28,
+                    "total_invoice_price_usd_per_qty": 28,
+                    "lcl_attributes": null
+                  }
+                ],
+                "charge_attributes": {
+                  "contract_rate_adjustment": 0,
+                  "charge_parent_type": null,
+                  "parent_uuid": null,
+                  "children_uuids": []
+                }
+              },
+              {
+                "show_charge": true,
+                "charge_uuid": "d203fd38-b442-4f57-8dea-08a3c69c986a",
+                "agent_id": null,
+                "agent_name": null,
+                "carrier_id": 1365,
+                "source": "Api",
+                "carrier_uuid": "ed473900-d75d-4f97-b7cf-6c7d20867264",
+                "carrier_name": "MAERSK SPOT",
+                "charge_code": "ERS",
+                "charge_name": "Emergency Risk Surcharge",
+                "charge_hazardous": false,
+                "contract_charge_uuid": "ab609f5c-80f7-4d28-aff1-7bf5b570f385",
+                "contract_reference": null,
+                "surcharge_uuid": "05912d6d-b376-4fcb-bcf1-6dcaee8f3715",
+                "carrier_scac": null,
+                "rate_type_code": "freight_surcharge",
+                "rate_basis": "Per Container",
+                "rate_basis_value": null,
+                "shipment_type": null,
+                "shipment_type_id": null,
+                "invoice_code": "Emergency Risk Surcharge",
+                "payment_method": null,
+                "charge_remarks": null,
+                "quote_charge_remarks": null,
+                "inclusions": null,
+                "valid_from": null,
+                "valid_to": null,
+                "unit_price_currency": "USD",
+                "invoice_price_currency": "USD",
+                "commodity": null,
+                "service_name": null,
+                "tariffs": [
+                  {
+                    "quantity": 1,
+                    "container_iso": "20DV",
+                    "container_name": "20 DV",
+                    "unit_price": 9,
+                    "unit_price_usd": 9,
+                    "unit_profit": 0,
+                    "unit_profit_usd": 0,
+                    "profit_percentage": 0,
+                    "invoice_price": 9,
+                    "invoice_price_usd": 9,
+                    "total_price_per_qty": 9,
+                    "total_price_usd_per_qty": 9,
+                    "total_profit_per_qty": 0,
+                    "total_profit_usd_per_qty": 0,
+                    "total_invoice_price_per_qty": 9,
+                    "total_invoice_price_usd_per_qty": 9,
+                    "lcl_attributes": null
+                  }
+                ],
+                "charge_attributes": {
+                  "contract_rate_adjustment": 0,
+                  "charge_parent_type": null,
+                  "parent_uuid": null,
+                  "children_uuids": []
+                }
+              }
+            ],
+            "totals": {
+              "currency": "USD",
+              "per_container": {
+                "containers": {
+                  "20DV": {
+                    "total_unit_price_usd": 339,
+                    "total_unit_price": 339,
+                    "total_unit_profit": 0,
+                    "total_unit_profit_usd": 0,
+                    "total_unit_invoice_usd": 339,
+                    "total_unit_invoice": 339,
+                    "total_per_qty_price_usd": 339,
+                    "total_per_qty_price": 339,
+                    "total_per_qty_profit_usd": 0,
+                    "total_per_qty_profit": 0,
+                    "total_per_qty_invoice_usd": 339,
+                    "total_per_qty_invoice": 339,
+                    "profit_percentage": 0
+                  }
+                }
+              },
+              "per_container_totals": {
+                "containers": {
+                  "20DV": {
+                    "total_unit_price_usd": 339,
+                    "total_unit_price": 339,
+                    "total_unit_profit": 0,
+                    "total_unit_profit_usd": 0,
+                    "total_unit_invoice_usd": 339,
+                    "total_unit_invoice": 339,
+                    "total_per_qty_price_usd": 339,
+                    "total_per_qty_price": 339,
+                    "total_per_qty_profit_usd": 0,
+                    "total_per_qty_profit": 0,
+                    "total_per_qty_invoice_usd": 339,
+                    "total_per_qty_invoice": 339,
+                    "profit_percentage": 0
+                  }
+                }
+              },
+              "global_totals": {
+                "total_unit_price_usd": 0,
+                "total_unit_price": 0,
+                "total_unit_profit": 0,
+                "total_unit_profit_usd": 0,
+                "total_unit_invoice_usd": 0,
+                "total_unit_invoice": 0,
+                "total_per_qty_price_usd": 0,
+                "total_per_qty_price": 0,
+                "total_per_qty_profit_usd": 0,
+                "total_per_qty_profit": 0,
+                "total_per_qty_invoice_usd": 0,
+                "total_per_qty_invoice": 0,
+                "profit_percentage": 0
+              },
+              "offer_totals": {
+                "total_unit_price_usd": 0,
+                "total_unit_price": 0,
+                "total_unit_profit": 0,
+                "total_unit_profit_usd": 0,
+                "total_unit_invoice_usd": 0,
+                "total_unit_invoice": 0,
+                "total_per_qty_price_usd": 0,
+                "total_per_qty_price": 0,
+                "total_per_qty_profit_usd": 0,
+                "total_per_qty_profit": 0,
+                "total_per_qty_invoice_usd": 0,
+                "total_per_qty_invoice": 0,
+                "profit_percentage": 0
+              }
+            },
+            "remarks": null,
+            "inclusions": null
+          },
+          "origin": {
+            "show_charges": true,
+            "charges": [
+              {
+                "show_charge": true,
+                "charge_uuid": "2eb24be7-cfbc-4e79-b6f7-58a336d32ef2",
+                "agent_id": null,
+                "agent_name": null,
+                "carrier_id": 1365,
+                "source": "Api",
+                "carrier_uuid": "ed473900-d75d-4f97-b7cf-6c7d20867264",
+                "carrier_name": "MAERSK SPOT",
+                "charge_code": "OTHC",
+                "charge_name": "TERMINAL HANDLING CHARGE ORIGIN",
+                "charge_hazardous": false,
+                "contract_charge_uuid": "fbc111e0-a4f4-4b20-88ca-3f89dabe460a",
+                "contract_reference": null,
+                "surcharge_uuid": "e30d75f8-ec57-4234-80b0-d131341d5cd4",
+                "carrier_scac": null,
+                "rate_type_code": "origin",
+                "rate_basis": "Per Container",
+                "rate_basis_value": null,
+                "shipment_type": null,
+                "shipment_type_id": null,
+                "invoice_code": "TERMINAL HANDLING CHARGE ORIGIN",
+                "payment_method": null,
+                "charge_remarks": null,
+                "quote_charge_remarks": null,
+                "inclusions": null,
+                "valid_from": null,
+                "valid_to": null,
+                "unit_price_currency": "USD",
+                "invoice_price_currency": "USD",
+                "commodity": null,
+                "service_name": null,
+                "tariffs": [
+                  {
+                    "quantity": 1,
+                    "container_iso": "20DV",
+                    "container_name": "20 DV",
+                    "unit_price": 310,
+                    "unit_price_usd": 310,
+                    "unit_profit": 0,
+                    "unit_profit_usd": 0,
+                    "profit_percentage": 0,
+                    "invoice_price": 310,
+                    "invoice_price_usd": 310,
+                    "total_price_per_qty": 310,
+                    "total_price_usd_per_qty": 310,
+                    "total_profit_per_qty": 0,
+                    "total_profit_usd_per_qty": 0,
+                    "total_invoice_price_per_qty": 310,
+                    "total_invoice_price_usd_per_qty": 310,
+                    "lcl_attributes": null
+                  }
+                ],
+                "charge_attributes": {
+                  "contract_rate_adjustment": 0,
+                  "charge_parent_type": null,
+                  "parent_uuid": null,
+                  "children_uuids": []
+                }
+              },
+              {
+                "show_charge": true,
+                "charge_uuid": "f693ca91-dd15-4750-937a-2de41acf698c",
+                "agent_id": null,
+                "agent_name": null,
+                "carrier_id": 1365,
+                "source": "Api",
+                "carrier_uuid": "ed473900-d75d-4f97-b7cf-6c7d20867264",
+                "carrier_name": "MAERSK SPOT",
+                "charge_code": "ODF",
+                "charge_name": "Documentation Fee Origin",
+                "charge_hazardous": false,
+                "contract_charge_uuid": "897335cf-76a0-4b7b-8b58-fcf703d49aa8",
+                "contract_reference": null,
+                "surcharge_uuid": "660f4705-6b44-4ece-8fd7-3345865a6bab",
+                "carrier_scac": null,
+                "rate_type_code": "origin",
+                "rate_basis": "Per Bill of Lading",
+                "rate_basis_value": null,
+                "shipment_type": null,
+                "shipment_type_id": null,
+                "invoice_code": "Documentation Fee Origin",
+                "payment_method": null,
+                "charge_remarks": null,
+                "quote_charge_remarks": null,
+                "inclusions": null,
+                "valid_from": null,
+                "valid_to": null,
+                "unit_price_currency": "USD",
+                "invoice_price_currency": "USD",
+                "commodity": null,
+                "service_name": null,
+                "tariffs": [
+                  {
+                    "quantity": 1,
+                    "container_iso": "20DV",
+                    "container_name": "20 DV",
+                    "unit_price": 65,
+                    "unit_price_usd": 65,
+                    "unit_profit": 0,
+                    "unit_profit_usd": 0,
+                    "profit_percentage": 0,
+                    "invoice_price": 65,
+                    "invoice_price_usd": 65,
+                    "total_price_per_qty": 65,
+                    "total_price_usd_per_qty": 65,
+                    "total_profit_per_qty": 0,
+                    "total_profit_usd_per_qty": 0,
+                    "total_invoice_price_per_qty": 65,
+                    "total_invoice_price_usd_per_qty": 65,
+                    "lcl_attributes": null
+                  }
+                ],
+                "charge_attributes": {
+                  "contract_rate_adjustment": 0,
+                  "charge_parent_type": null,
+                  "parent_uuid": null,
+                  "children_uuids": []
+                }
+              }
+            ],
+            "totals": {
+              "currency": "USD",
+              "per_container": {
+                "containers": {
+                  "20DV": {
+                    "total_unit_price_usd": 310,
+                    "total_unit_price": 310,
+                    "total_unit_profit": 0,
+                    "total_unit_profit_usd": 0,
+                    "total_unit_invoice_usd": 310,
+                    "total_unit_invoice": 310,
+                    "total_per_qty_price_usd": 310,
+                    "total_per_qty_price": 310,
+                    "total_per_qty_profit_usd": 0,
+                    "total_per_qty_profit": 0,
+                    "total_per_qty_invoice_usd": 310,
+                    "total_per_qty_invoice": 310,
+                    "profit_percentage": 0
+                  }
+                }
+              },
+              "per_container_totals": {
+                "containers": {
+                  "20DV": {
+                    "total_unit_price_usd": 375,
+                    "total_unit_price": 375,
+                    "total_unit_profit": 0,
+                    "total_unit_profit_usd": 0,
+                    "total_unit_invoice_usd": 375,
+                    "total_unit_invoice": 375,
+                    "total_per_qty_price_usd": 375,
+                    "total_per_qty_price": 375,
+                    "total_per_qty_profit_usd": 0,
+                    "total_per_qty_profit": 0,
+                    "total_per_qty_invoice_usd": 375,
+                    "total_per_qty_invoice": 375,
+                    "profit_percentage": 0
+                  }
+                }
+              },
+              "global_totals": {
+                "total_unit_price_usd": 0,
+                "total_unit_price": 0,
+                "total_unit_profit": 0,
+                "total_unit_profit_usd": 0,
+                "total_unit_invoice_usd": 0,
+                "total_unit_invoice": 0,
+                "total_per_qty_price_usd": 0,
+                "total_per_qty_price": 0,
+                "total_per_qty_profit_usd": 0,
+                "total_per_qty_profit": 0,
+                "total_per_qty_invoice_usd": 0,
+                "total_per_qty_invoice": 0,
+                "profit_percentage": 0
+              },
+              "offer_totals": {
+                "total_unit_price_usd": 0,
+                "total_unit_price": 0,
+                "total_unit_profit": 0,
+                "total_unit_profit_usd": 0,
+                "total_unit_invoice_usd": 0,
+                "total_unit_invoice": 0,
+                "total_per_qty_price_usd": 0,
+                "total_per_qty_price": 0,
+                "total_per_qty_profit_usd": 0,
+                "total_per_qty_profit": 0,
+                "total_per_qty_invoice_usd": 0,
+                "total_per_qty_invoice": 0,
+                "profit_percentage": 0
+              }
+            },
+            "remarks": null,
+            "inland_remarks": null
+          },
+          "destination": {
+            "show_charges": true,
+            "charges": [
+              {
+                "show_charge": true,
+                "charge_uuid": "09230863-3904-410b-929e-7a4f56e80c0b",
+                "agent_id": null,
+                "agent_name": null,
+                "carrier_id": 1365,
+                "source": "Api",
+                "carrier_uuid": "ed473900-d75d-4f97-b7cf-6c7d20867264",
+                "carrier_name": "MAERSK SPOT",
+                "charge_code": "CPE",
+                "charge_name": "Container Protect Essential",
+                "charge_hazardous": false,
+                "contract_charge_uuid": "d0221180-2b1b-45fd-9106-00d3af1245a8",
+                "contract_reference": null,
+                "surcharge_uuid": "347fb562-1e3c-4213-b644-f7628fb22689",
+                "carrier_scac": null,
+                "rate_type_code": "destination",
+                "rate_basis": "Per Container",
+                "rate_basis_value": null,
+                "shipment_type": null,
+                "shipment_type_id": null,
+                "invoice_code": "Container Protect Essential",
+                "payment_method": null,
+                "charge_remarks": null,
+                "quote_charge_remarks": null,
+                "inclusions": null,
+                "valid_from": null,
+                "valid_to": null,
+                "unit_price_currency": "EUR",
+                "invoice_price_currency": "EUR",
+                "commodity": null,
+                "service_name": null,
+                "tariffs": [
+                  {
+                    "quantity": 1,
+                    "container_iso": "20DV",
+                    "container_name": "20 DV",
+                    "unit_price": 19,
+                    "unit_price_usd": 22.17,
+                    "unit_profit": 0,
+                    "unit_profit_usd": 0,
+                    "profit_percentage": 0,
+                    "invoice_price": 19,
+                    "invoice_price_usd": 22.17,
+                    "total_price_per_qty": 19,
+                    "total_price_usd_per_qty": 22.17,
+                    "total_profit_per_qty": 0,
+                    "total_profit_usd_per_qty": 0,
+                    "total_invoice_price_per_qty": 19,
+                    "total_invoice_price_usd_per_qty": 22.17,
+                    "lcl_attributes": null
+                  }
+                ],
+                "charge_attributes": {
+                  "contract_rate_adjustment": 0,
+                  "charge_parent_type": null,
+                  "parent_uuid": null,
+                  "children_uuids": []
+                }
+              },
+              {
+                "show_charge": true,
+                "charge_uuid": "f7a87ea1-1a33-45ae-9755-51b9a8c08961",
+                "agent_id": null,
+                "agent_name": null,
+                "carrier_id": 1365,
+                "source": "Api",
+                "carrier_uuid": "ed473900-d75d-4f97-b7cf-6c7d20867264",
+                "carrier_name": "MAERSK SPOT",
+                "charge_code": "DHC",
+                "charge_name": "Terminal Handling Service Destination",
+                "charge_hazardous": false,
+                "contract_charge_uuid": "8d9d233d-1b38-41c2-8e0f-49b2bd4b1b6c",
+                "contract_reference": null,
+                "surcharge_uuid": "3d8d391b-fd6f-41d2-b352-aaca980a51e5",
+                "carrier_scac": null,
+                "rate_type_code": "destination",
+                "rate_basis": "Per Container",
+                "rate_basis_value": null,
+                "shipment_type": null,
+                "shipment_type_id": null,
+                "invoice_code": "Terminal Handling Service Destination",
+                "payment_method": null,
+                "charge_remarks": null,
+                "quote_charge_remarks": null,
+                "inclusions": null,
+                "valid_from": null,
+                "valid_to": null,
+                "unit_price_currency": "EUR",
+                "invoice_price_currency": "EUR",
+                "commodity": null,
+                "service_name": null,
+                "tariffs": [
+                  {
+                    "quantity": 1,
+                    "container_iso": "20DV",
+                    "container_name": "20 DV",
+                    "unit_price": 241,
+                    "unit_price_usd": 281.23,
+                    "unit_profit": 0,
+                    "unit_profit_usd": 0,
+                    "profit_percentage": 0,
+                    "invoice_price": 241,
+                    "invoice_price_usd": 281.23,
+                    "total_price_per_qty": 241,
+                    "total_price_usd_per_qty": 281.23,
+                    "total_profit_per_qty": 0,
+                    "total_profit_usd_per_qty": 0,
+                    "total_invoice_price_per_qty": 241,
+                    "total_invoice_price_usd_per_qty": 281.23,
+                    "lcl_attributes": null
+                  }
+                ],
+                "charge_attributes": {
+                  "contract_rate_adjustment": 0,
+                  "charge_parent_type": null,
+                  "parent_uuid": null,
+                  "children_uuids": []
+                }
+              },
+              {
+                "show_charge": true,
+                "charge_uuid": "3195157c-d2a2-4cb1-873c-31912be6e7f0",
+                "agent_id": null,
+                "agent_name": null,
+                "carrier_id": 1365,
+                "source": "Api",
+                "carrier_uuid": "ed473900-d75d-4f97-b7cf-6c7d20867264",
+                "carrier_name": "MAERSK SPOT",
+                "charge_code": "DDF",
+                "charge_name": "Documentation Fee Destination",
+                "charge_hazardous": false,
+                "contract_charge_uuid": "1408de91-7bc5-44d3-bbd6-06152931ec23",
+                "contract_reference": null,
+                "surcharge_uuid": "235e213b-40e1-4c02-a836-85bdd62b1112",
+                "carrier_scac": null,
+                "rate_type_code": "destination",
+                "rate_basis": "Per Bill of Lading",
+                "rate_basis_value": null,
+                "shipment_type": null,
+                "shipment_type_id": null,
+                "invoice_code": "Documentation Fee Destination",
+                "payment_method": null,
+                "charge_remarks": null,
+                "quote_charge_remarks": null,
+                "inclusions": null,
+                "valid_from": null,
+                "valid_to": null,
+                "unit_price_currency": "EUR",
+                "invoice_price_currency": "EUR",
+                "commodity": null,
+                "service_name": null,
+                "tariffs": [
+                  {
+                    "quantity": 1,
+                    "container_iso": "20DV",
+                    "container_name": "20 DV",
+                    "unit_price": 60,
+                    "unit_price_usd": 70.02,
+                    "unit_profit": 0,
+                    "unit_profit_usd": 0,
+                    "profit_percentage": 0,
+                    "invoice_price": 60,
+                    "invoice_price_usd": 70.02,
+                    "total_price_per_qty": 60,
+                    "total_price_usd_per_qty": 70.02,
+                    "total_profit_per_qty": 0,
+                    "total_profit_usd_per_qty": 0,
+                    "total_invoice_price_per_qty": 60,
+                    "total_invoice_price_usd_per_qty": 70.02,
+                    "lcl_attributes": null
+                  }
+                ],
+                "charge_attributes": {
+                  "contract_rate_adjustment": 0,
+                  "charge_parent_type": null,
+                  "parent_uuid": null,
+                  "children_uuids": []
+                }
+              }
+            ],
+            "totals": {
+              "currency": "EUR",
+              "per_container": {
+                "containers": {
+                  "20DV": {
+                    "total_unit_price_usd": 303.41,
+                    "total_unit_price": 260,
+                    "total_unit_profit": 0,
+                    "total_unit_profit_usd": 0,
+                    "total_unit_invoice_usd": 303.41,
+                    "total_unit_invoice": 260,
+                    "total_per_qty_price_usd": 303.41,
+                    "total_per_qty_price": 260,
+                    "total_per_qty_profit_usd": 0,
+                    "total_per_qty_profit": 0,
+                    "total_per_qty_invoice_usd": 303.41,
+                    "total_per_qty_invoice": 260,
+                    "profit_percentage": 0
+                  }
+                }
+              },
+              "per_container_totals": {
+                "containers": {
+                  "20DV": {
+                    "total_unit_price_usd": 373.43,
+                    "total_unit_price": 320,
+                    "total_unit_profit": 0,
+                    "total_unit_profit_usd": 0,
+                    "total_unit_invoice_usd": 373.43,
+                    "total_unit_invoice": 320,
+                    "total_per_qty_price_usd": 373.43,
+                    "total_per_qty_price": 320,
+                    "total_per_qty_profit_usd": 0,
+                    "total_per_qty_profit": 0,
+                    "total_per_qty_invoice_usd": 373.43,
+                    "total_per_qty_invoice": 320,
+                    "profit_percentage": 0
+                  }
+                }
+              },
+              "global_totals": {
+                "total_unit_price_usd": 0,
+                "total_unit_price": 0,
+                "total_unit_profit": 0,
+                "total_unit_profit_usd": 0,
+                "total_unit_invoice_usd": 0,
+                "total_unit_invoice": 0,
+                "total_per_qty_price_usd": 0,
+                "total_per_qty_price": 0,
+                "total_per_qty_profit_usd": 0,
+                "total_per_qty_profit": 0,
+                "total_per_qty_invoice_usd": 0,
+                "total_per_qty_invoice": 0,
+                "profit_percentage": 0
+              },
+              "offer_totals": {
+                "total_unit_price_usd": 0,
+                "total_unit_price": 0,
+                "total_unit_profit": 0,
+                "total_unit_profit_usd": 0,
+                "total_unit_invoice_usd": 0,
+                "total_unit_invoice": 0,
+                "total_per_qty_price_usd": 0,
+                "total_per_qty_price": 0,
+                "total_per_qty_profit_usd": 0,
+                "total_per_qty_profit": 0,
+                "total_per_qty_invoice_usd": 0,
+                "total_per_qty_invoice": 0,
+                "profit_percentage": 0
+              }
+            },
+            "remarks": null,
+            "inland_remarks": null
+          },
+          "totals": {
+            "currency": "USD",
+            "per_container": {
+              "containers": {
+                "20DV": {
+                  "total_unit_price_usd": 952.42,
+                  "total_unit_price": 952.42,
+                  "total_unit_profit": 0,
+                  "total_unit_profit_usd": 0,
+                  "total_unit_invoice_usd": 952.42,
+                  "total_unit_invoice": 952.42,
+                  "total_per_qty_price_usd": 952.42,
+                  "total_per_qty_price": 952.42,
+                  "total_per_qty_profit_usd": 0,
+                  "total_per_qty_profit": 0,
+                  "total_per_qty_invoice_usd": 952.42,
+                  "total_per_qty_invoice": 952.42,
+                  "profit_percentage": 0
+                }
+              }
+            },
+            "per_container_totals": {
+              "containers": {
+                "20DV": {
+                  "total_unit_price_usd": 1087.43,
+                  "total_unit_price": 1087.43,
+                  "total_unit_profit": 0,
+                  "total_unit_profit_usd": 0,
+                  "total_unit_invoice_usd": 1087.43,
+                  "total_unit_invoice": 1087.43,
+                  "total_per_qty_price_usd": 1087.43,
+                  "total_per_qty_price": 1087.43,
+                  "total_per_qty_profit_usd": 0,
+                  "total_per_qty_profit": 0,
+                  "total_per_qty_invoice_usd": 1087.43,
+                  "total_per_qty_invoice": 1087.43,
+                  "profit_percentage": 0
+                }
+              }
+            },
+            "global_totals": {
+              "total_unit_price_usd": 0,
+              "total_unit_price": 0,
+              "total_unit_profit": 0,
+              "total_unit_profit_usd": 0,
+              "total_unit_invoice_usd": 0,
+              "total_unit_invoice": 0,
+              "total_per_qty_price_usd": 0,
+              "total_per_qty_price": 0,
+              "total_per_qty_profit_usd": 0,
+              "total_per_qty_profit": 0,
+              "total_per_qty_invoice_usd": 0,
+              "total_per_qty_invoice": 0,
+              "profit_percentage": 0
+            },
+            "offer_totals": {
+              "total_unit_price_usd": 0,
+              "total_unit_price": 0,
+              "total_unit_profit": 0,
+              "total_unit_profit_usd": 0,
+              "total_unit_invoice_usd": 0,
+              "total_unit_invoice": 0,
+              "total_per_qty_price_usd": 0,
+              "total_per_qty_price": 0,
+              "total_per_qty_profit_usd": 0,
+              "total_per_qty_profit": 0,
+              "total_per_qty_invoice_usd": 0,
+              "total_per_qty_invoice": 0,
+              "profit_percentage": 0
+            }
+          },
+          "dnd_conditions": {
+            "link": null,
+            "conditions": [
+              {
+                "direction": "Import",
+                "charge_type": "Demurrage",
+                "display_name": "Import Demurrage",
+                "commodity": "GENERAL CARGO",
+                "free_time_start_event": "discharge",
+                "rkst_code": "PTLIS",
+                "container_details": [
+                  {
+                    "container_name": "20DRY",
+                    "free_time_grant_in_days": 7,
+                    "charge_per_diem_after_free_time": [
+                      {
+                        "start_day_of_charge": 8,
+                        "end_day_of_charge": 15,
+                        "charge_per_diem": 6,
+                        "currency_of_charge": "EUR"
+                      },
+                      {
+                        "start_day_of_charge": 16,
+                        "end_day_of_charge": null,
+                        "charge_per_diem": 12,
+                        "currency_of_charge": "EUR"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "direction": "Import",
+                "charge_type": "Detention",
+                "display_name": "Import Detention",
+                "commodity": "GENERAL CARGO",
+                "free_time_start_event": "discharge",
+                "rkst_code": "PTLIS",
+                "container_details": [
+                  {
+                    "container_name": "20DRY",
+                    "free_time_grant_in_days": 7,
+                    "charge_per_diem_after_free_time": [
+                      {
+                        "start_day_of_charge": 8,
+                        "end_day_of_charge": 10,
+                        "charge_per_diem": 30,
+                        "currency_of_charge": "EUR"
+                      },
+                      {
+                        "start_day_of_charge": 11,
+                        "end_day_of_charge": null,
+                        "charge_per_diem": 50,
+                        "currency_of_charge": "EUR"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "penalty_fees": [
+            {
+              "display_name": "Amendment Fee",
+              "penalty_type": "AmendmentFee",
+              "fees": [
+                {
+                  "container_name": "20 DV",
+                  "charge_fee": 0,
+                  "currency": "USD"
+                }
+              ]
+            },
+            {
+              "display_name": "Cancellation Fee",
+              "penalty_type": "CancellationFee",
+              "fees": [
+                {
+                  "container_name": "20 DV",
+                  "charge_fee": 10,
+                  "currency": "USD"
+                }
+              ]
+            },
+            {
+              "display_name": "No Show Fee",
+              "penalty_type": "NoShowFee",
+              "fees": [
+                {
+                  "container_name": "20 DV",
+                  "charge_fee": 20,
+                  "currency": "USD"
+                }
+              ]
+            },
+            {
+              "display_name": "Compensation Fee",
+              "penalty_type": "CompensationFee",
+              "fees": [
+                {
+                  "container_name": "20 DV",
+                  "charge_fee": -10,
+                  "currency": "USD"
+                }
+              ]
+            }
+          ]
+        },
+        "schedules": [
+          {
+            "route_schedule_id": "d973a39c-546a-47e0-9df1-56f8dce6b063",
+            "departure_date": "2026-02-02T10:30:00Z",
+            "arrival_date": "2026-02-23T17:00:00Z",
+            "datetime_format": "UTC",
+            "transit_time": "21",
+            "carrier_scac": "MAEU",
+            "service_type": "Transshipment",
+            "schedule_status": "Invalid",
+            "schedule_details": {
+              "legs": [
+                {
+                  "from_location": {
+                    "id": 296,
+                    "name": "Haifa port Terminal",
+                    "code": "ILHFA",
+                    "unlo_code": null,
+                    "type": "TERMINAL",
+                    "city_name": "Haifa",
+                    "region_name": null,
+                    "country_code": "IL",
+                    "country_name": "Israel",
+                    "codification_type": null,
+                    "arrival_date": null,
+                    "arrival_time": null,
+                    "departure_date": "2026-02-02",
+                    "departure_time": "10:30:00",
+                    "timezone": "GMT"
+                  },
+                  "to_location": {
+                    "id": 201,
+                    "name": "Algeciras - ML Terminal",
+                    "code": "ESALG",
+                    "unlo_code": null,
+                    "type": "RAIL TERMINAL",
+                    "city_name": "Algeciras",
+                    "region_name": null,
+                    "country_code": "ES",
+                    "country_name": "Spain",
+                    "codification_type": null,
+                    "arrival_date": "2026-02-16",
+                    "arrival_time": "20:00:00",
+                    "departure_date": "2026-02-22",
+                    "departure_time": "02:00:00",
+                    "timezone": "GMT"
+                  },
+                  "transport": {
+                    "type_of_transport": "MVS",
+                    "transport_leg": "1/2",
+                    "reference_type": null,
+                    "reference": "9356098",
+                    "vehicle_name": "Maersk Narmada",
+                    "CO2e": null,
+                    "voyage_reference": "604W",
+                    "service_name": null,
+                    "leg_transit_time": null,
+                    "carrier_name": null,
+                    "carrier_code": null,
+                    "carrier_source": null,
+                    "inventory_teus": null
+                  },
+                  "deadlines": [
+                    {
+                      "deadline_key": "CY",
+                      "name": "Commercial Cargo Cutoff",
+                      "type": null,
+                      "deadline_date": "2026-02-01 07:30:00"
+                    }
+                  ]
+                },
+                {
+                  "from_location": {
+                    "id": 201,
+                    "name": "Algeciras - ML Terminal",
+                    "code": "ESALG",
+                    "unlo_code": null,
+                    "type": "RAIL TERMINAL",
+                    "city_name": "Algeciras",
+                    "region_name": null,
+                    "country_code": "ES",
+                    "country_name": "Spain",
+                    "codification_type": null,
+                    "arrival_date": "2026-02-16",
+                    "arrival_time": "20:00:00",
+                    "departure_date": "2026-02-22",
+                    "departure_time": "02:00:00",
+                    "timezone": "GMT"
+                  },
+                  "to_location": {
+                    "id": 580,
+                    "name": "Terminal de Contentores de Alcantar",
+                    "code": "PTLIS",
+                    "unlo_code": null,
+                    "type": "DEPOT",
+                    "city_name": "Lisbon",
+                    "region_name": null,
+                    "country_code": "PT",
+                    "country_name": "Portugal",
+                    "codification_type": null,
+                    "arrival_date": "2026-02-23",
+                    "arrival_time": "17:00:00",
+                    "departure_date": null,
+                    "departure_time": null,
+                    "timezone": "GMT"
+                  },
+                  "transport": {
+                    "type_of_transport": "FEF",
+                    "transport_leg": "2/2",
+                    "reference_type": null,
+                    "reference": "9866005",
+                    "vehicle_name": "GREEN POLE",
+                    "CO2e": null,
+                    "voyage_reference": "608N",
+                    "service_name": null,
+                    "leg_transit_time": null,
+                    "carrier_name": null,
+                    "carrier_code": null,
+                    "carrier_source": null,
+                    "inventory_teus": null
+                  },
+                  "deadlines": [
+                    {
+                      "deadline_key": "CY",
+                      "name": "Commercial Cargo Cutoff",
+                      "type": null,
+                      "deadline_date": "2026-02-20 16:00:00"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "product_offer": {
+          "rate_uuid": "2c2021c8-c219-46b6-8b89-b1f8b24a49ce",
+          "rate_status": "Valid",
+          "rate_source": "Default",
+          "service_type": "Transshipment",
+          "main_carrier_scac": "MAEU",
+          "main_carrier_id": 1365,
+          "main_carrier_uuid": "ed473900-d75d-4f97-b7cf-6c7d20867264",
+          "main_carrier_code": "MSK",
+          "main_carrier_name": "Maersk",
+          "main_carrier_logo": "https://cargofive-production-21.s3.eu-central-1.amazonaws.com/imgcarrier/maersk.png",
+          "main_source_type": "Api",
+          "main_product_type": null,
+          "main_product_name": "MAERSK SPOT",
+          "codification_type": null,
+          "origin_port_id": 296,
+          "origin_port_display_name": "Haifa",
+          "origin_port_unlocode": "ILHFA",
+          "origin_location_id": null,
+          "origin_location_display_name": null,
+          "origin_location_unlocode": null,
+          "destination_port_id": 580,
+          "destination_port_display_name": "Lisbon",
+          "destination_port_unlocode": "PTLIS",
+          "destination_location_id": null,
+          "destination_location_display_name": null,
+          "destination_location_unlocode": null,
+          "origin_service_type": "CY",
+          "destination_service_type": "CY",
+          "via_port": [],
+          "hazardous": false,
+          "kind_of_cargo_id": null,
+          "kind_of_cargo": null,
+          "commodity": null,
+          "service_name": null,
+          "rate_details": {
+            "contract_uuid": null,
+            "carrier_offer_id": "O_P02fmsdrb",
+            "reference": null,
+            "contract_status": null,
+            "file": null,
+            "future_date": false,
+            "named_accounts": [],
+            "additional_data": {
+              "link": "https://www.maersk.com/prices-and-quotes?utm_source=affiliate&utm_medium=referral&utm_campaign=cargofive&utm_id=cargofive",
+              "book_now_link": "https://www.maersk.com/prices-and-quotes?utm_source=affiliate&utm_medium=referral&utm_campaign=cargofive&utm_id=cargofive"
+            }
+          }
+        },
+        "product_price": {
+          "valid_from": null,
+          "valid_to": null,
+          "freight": {
+            "show_charges": true,
+            "charges": [
+              {
+                "show_charge": true,
+                "charge_uuid": "edc6e931-57af-4184-9029-5c5240d9ef6a",
+                "agent_id": null,
+                "agent_name": null,
+                "carrier_id": 1365,
+                "source": "Api",
+                "carrier_uuid": "ed473900-d75d-4f97-b7cf-6c7d20867264",
+                "carrier_name": "MAERSK SPOT",
+                "charge_code": "BAS",
+                "charge_name": "Ocean Freight",
+                "charge_hazardous": false,
+                "contract_charge_uuid": "55765c19-7479-4a4e-8170-d6fea1c9a942",
+                "contract_reference": null,
+                "surcharge_uuid": "a61b088f-669e-4b3b-ba5f-0337af6c706c",
+                "carrier_scac": null,
+                "rate_type_code": "freight",
+                "rate_basis": "Per Container",
+                "rate_basis_value": null,
+                "shipment_type": null,
+                "shipment_type_id": null,
+                "invoice_code": "Ocean Freight",
+                "payment_method": null,
+                "charge_remarks": null,
+                "quote_charge_remarks": null,
+                "inclusions": null,
+                "valid_from": null,
+                "valid_to": null,
+                "unit_price_currency": "USD",
+                "invoice_price_currency": "USD",
+                "commodity": null,
+                "service_name": null,
+                "tariffs": [
+                  {
+                    "quantity": 1,
+                    "container_iso": "20DV",
+                    "container_name": "20 DV",
+                    "unit_price": 302,
+                    "unit_price_usd": 302,
+                    "unit_profit": 0,
+                    "unit_profit_usd": 0,
+                    "profit_percentage": 0,
+                    "invoice_price": 302,
+                    "invoice_price_usd": 302,
+                    "total_price_per_qty": 302,
+                    "total_price_usd_per_qty": 302,
+                    "total_profit_per_qty": 0,
+                    "total_profit_usd_per_qty": 0,
+                    "total_invoice_price_per_qty": 302,
+                    "total_invoice_price_usd_per_qty": 302,
+                    "lcl_attributes": null
+                  }
+                ],
+                "charge_attributes": {
+                  "contract_rate_adjustment": 0,
+                  "charge_parent_type": null,
+                  "parent_uuid": null,
+                  "children_uuids": []
+                }
+              },
+              {
+                "show_charge": true,
+                "charge_uuid": "43d240a1-014b-4ee3-a656-7b906a93523c",
+                "agent_id": null,
+                "agent_name": null,
+                "carrier_id": 1365,
+                "source": "Api",
+                "carrier_uuid": "ed473900-d75d-4f97-b7cf-6c7d20867264",
+                "carrier_name": "MAERSK SPOT",
+                "charge_code": "NEF",
+                "charge_name": "Emission Fee",
+                "charge_hazardous": false,
+                "contract_charge_uuid": "1019edfc-84a0-4f5c-a5fb-1176e092089c",
+                "contract_reference": null,
+                "surcharge_uuid": "9bafb397-e060-41d8-827f-a40335871bbd",
+                "carrier_scac": null,
+                "rate_type_code": "freight_surcharge",
+                "rate_basis": "Per Container",
+                "rate_basis_value": null,
+                "shipment_type": null,
+                "shipment_type_id": null,
+                "invoice_code": "Emission Fee",
+                "payment_method": null,
+                "charge_remarks": null,
+                "quote_charge_remarks": null,
+                "inclusions": null,
+                "valid_from": null,
+                "valid_to": null,
+                "unit_price_currency": "USD",
+                "invoice_price_currency": "USD",
+                "commodity": null,
+                "service_name": null,
+                "tariffs": [
+                  {
+                    "quantity": 1,
+                    "container_iso": "20DV",
+                    "container_name": "20 DV",
+                    "unit_price": 28,
+                    "unit_price_usd": 28,
+                    "unit_profit": 0,
+                    "unit_profit_usd": 0,
+                    "profit_percentage": 0,
+                    "invoice_price": 28,
+                    "invoice_price_usd": 28,
+                    "total_price_per_qty": 28,
+                    "total_price_usd_per_qty": 28,
+                    "total_profit_per_qty": 0,
+                    "total_profit_usd_per_qty": 0,
+                    "total_invoice_price_per_qty": 28,
+                    "total_invoice_price_usd_per_qty": 28,
+                    "lcl_attributes": null
+                  }
+                ],
+                "charge_attributes": {
+                  "contract_rate_adjustment": 0,
+                  "charge_parent_type": null,
+                  "parent_uuid": null,
+                  "children_uuids": []
+                }
+              },
+              {
+                "show_charge": true,
+                "charge_uuid": "4842ead5-b088-49e2-b33a-094e98c88dfc",
+                "agent_id": null,
+                "agent_name": null,
+                "carrier_id": 1365,
+                "source": "Api",
+                "carrier_uuid": "ed473900-d75d-4f97-b7cf-6c7d20867264",
+                "carrier_name": "MAERSK SPOT",
+                "charge_code": "ERS",
+                "charge_name": "Emergency Risk Surcharge",
+                "charge_hazardous": false,
+                "contract_charge_uuid": "3e8c6779-a727-42db-b9eb-ed2155bf36ab",
+                "contract_reference": null,
+                "surcharge_uuid": "05912d6d-b376-4fcb-bcf1-6dcaee8f3715",
+                "carrier_scac": null,
+                "rate_type_code": "freight_surcharge",
+                "rate_basis": "Per Container",
+                "rate_basis_value": null,
+                "shipment_type": null,
+                "shipment_type_id": null,
+                "invoice_code": "Emergency Risk Surcharge",
+                "payment_method": null,
+                "charge_remarks": null,
+                "quote_charge_remarks": null,
+                "inclusions": null,
+                "valid_from": null,
+                "valid_to": null,
+                "unit_price_currency": "USD",
+                "invoice_price_currency": "USD",
+                "commodity": null,
+                "service_name": null,
+                "tariffs": [
+                  {
+                    "quantity": 1,
+                    "container_iso": "20DV",
+                    "container_name": "20 DV",
+                    "unit_price": 9,
+                    "unit_price_usd": 9,
+                    "unit_profit": 0,
+                    "unit_profit_usd": 0,
+                    "profit_percentage": 0,
+                    "invoice_price": 9,
+                    "invoice_price_usd": 9,
+                    "total_price_per_qty": 9,
+                    "total_price_usd_per_qty": 9,
+                    "total_profit_per_qty": 0,
+                    "total_profit_usd_per_qty": 0,
+                    "total_invoice_price_per_qty": 9,
+                    "total_invoice_price_usd_per_qty": 9,
+                    "lcl_attributes": null
+                  }
+                ],
+                "charge_attributes": {
+                  "contract_rate_adjustment": 0,
+                  "charge_parent_type": null,
+                  "parent_uuid": null,
+                  "children_uuids": []
+                }
+              }
+            ],
+            "totals": {
+              "currency": "USD",
+              "per_container": {
+                "containers": {
+                  "20DV": {
+                    "total_unit_price_usd": 339,
+                    "total_unit_price": 339,
+                    "total_unit_profit": 0,
+                    "total_unit_profit_usd": 0,
+                    "total_unit_invoice_usd": 339,
+                    "total_unit_invoice": 339,
+                    "total_per_qty_price_usd": 339,
+                    "total_per_qty_price": 339,
+                    "total_per_qty_profit_usd": 0,
+                    "total_per_qty_profit": 0,
+                    "total_per_qty_invoice_usd": 339,
+                    "total_per_qty_invoice": 339,
+                    "profit_percentage": 0
+                  }
+                }
+              },
+              "per_container_totals": {
+                "containers": {
+                  "20DV": {
+                    "total_unit_price_usd": 339,
+                    "total_unit_price": 339,
+                    "total_unit_profit": 0,
+                    "total_unit_profit_usd": 0,
+                    "total_unit_invoice_usd": 339,
+                    "total_unit_invoice": 339,
+                    "total_per_qty_price_usd": 339,
+                    "total_per_qty_price": 339,
+                    "total_per_qty_profit_usd": 0,
+                    "total_per_qty_profit": 0,
+                    "total_per_qty_invoice_usd": 339,
+                    "total_per_qty_invoice": 339,
+                    "profit_percentage": 0
+                  }
+                }
+              },
+              "global_totals": {
+                "total_unit_price_usd": 0,
+                "total_unit_price": 0,
+                "total_unit_profit": 0,
+                "total_unit_profit_usd": 0,
+                "total_unit_invoice_usd": 0,
+                "total_unit_invoice": 0,
+                "total_per_qty_price_usd": 0,
+                "total_per_qty_price": 0,
+                "total_per_qty_profit_usd": 0,
+                "total_per_qty_profit": 0,
+                "total_per_qty_invoice_usd": 0,
+                "total_per_qty_invoice": 0,
+                "profit_percentage": 0
+              },
+              "offer_totals": {
+                "total_unit_price_usd": 0,
+                "total_unit_price": 0,
+                "total_unit_profit": 0,
+                "total_unit_profit_usd": 0,
+                "total_unit_invoice_usd": 0,
+                "total_unit_invoice": 0,
+                "total_per_qty_price_usd": 0,
+                "total_per_qty_price": 0,
+                "total_per_qty_profit_usd": 0,
+                "total_per_qty_profit": 0,
+                "total_per_qty_invoice_usd": 0,
+                "total_per_qty_invoice": 0,
+                "profit_percentage": 0
+              }
+            },
+            "remarks": null,
+            "inclusions": null
+          },
+          "origin": {
+            "show_charges": true,
+            "charges": [
+              {
+                "show_charge": true,
+                "charge_uuid": "60bd1264-c94f-41d8-b9d8-c989f4d27e30",
+                "agent_id": null,
+                "agent_name": null,
+                "carrier_id": 1365,
+                "source": "Api",
+                "carrier_uuid": "ed473900-d75d-4f97-b7cf-6c7d20867264",
+                "carrier_name": "MAERSK SPOT",
+                "charge_code": "OTHC",
+                "charge_name": "TERMINAL HANDLING CHARGE ORIGIN",
+                "charge_hazardous": false,
+                "contract_charge_uuid": "cfbf1a4c-164b-4244-afcf-9fbab0d57bb7",
+                "contract_reference": null,
+                "surcharge_uuid": "e30d75f8-ec57-4234-80b0-d131341d5cd4",
+                "carrier_scac": null,
+                "rate_type_code": "origin",
+                "rate_basis": "Per Container",
+                "rate_basis_value": null,
+                "shipment_type": null,
+                "shipment_type_id": null,
+                "invoice_code": "TERMINAL HANDLING CHARGE ORIGIN",
+                "payment_method": null,
+                "charge_remarks": null,
+                "quote_charge_remarks": null,
+                "inclusions": null,
+                "valid_from": null,
+                "valid_to": null,
+                "unit_price_currency": "USD",
+                "invoice_price_currency": "USD",
+                "commodity": null,
+                "service_name": null,
+                "tariffs": [
+                  {
+                    "quantity": 1,
+                    "container_iso": "20DV",
+                    "container_name": "20 DV",
+                    "unit_price": 310,
+                    "unit_price_usd": 310,
+                    "unit_profit": 0,
+                    "unit_profit_usd": 0,
+                    "profit_percentage": 0,
+                    "invoice_price": 310,
+                    "invoice_price_usd": 310,
+                    "total_price_per_qty": 310,
+                    "total_price_usd_per_qty": 310,
+                    "total_profit_per_qty": 0,
+                    "total_profit_usd_per_qty": 0,
+                    "total_invoice_price_per_qty": 310,
+                    "total_invoice_price_usd_per_qty": 310,
+                    "lcl_attributes": null
+                  }
+                ],
+                "charge_attributes": {
+                  "contract_rate_adjustment": 0,
+                  "charge_parent_type": null,
+                  "parent_uuid": null,
+                  "children_uuids": []
+                }
+              },
+              {
+                "show_charge": true,
+                "charge_uuid": "737e5582-1b76-4241-aa68-52835e608a34",
+                "agent_id": null,
+                "agent_name": null,
+                "carrier_id": 1365,
+                "source": "Api",
+                "carrier_uuid": "ed473900-d75d-4f97-b7cf-6c7d20867264",
+                "carrier_name": "MAERSK SPOT",
+                "charge_code": "ODF",
+                "charge_name": "Documentation Fee Origin",
+                "charge_hazardous": false,
+                "contract_charge_uuid": "e656580c-7c02-48c6-b8d3-6aa0d123da0e",
+                "contract_reference": null,
+                "surcharge_uuid": "660f4705-6b44-4ece-8fd7-3345865a6bab",
+                "carrier_scac": null,
+                "rate_type_code": "origin",
+                "rate_basis": "Per Bill of Lading",
+                "rate_basis_value": null,
+                "shipment_type": null,
+                "shipment_type_id": null,
+                "invoice_code": "Documentation Fee Origin",
+                "payment_method": null,
+                "charge_remarks": null,
+                "quote_charge_remarks": null,
+                "inclusions": null,
+                "valid_from": null,
+                "valid_to": null,
+                "unit_price_currency": "USD",
+                "invoice_price_currency": "USD",
+                "commodity": null,
+                "service_name": null,
+                "tariffs": [
+                  {
+                    "quantity": 1,
+                    "container_iso": "20DV",
+                    "container_name": "20 DV",
+                    "unit_price": 65,
+                    "unit_price_usd": 65,
+                    "unit_profit": 0,
+                    "unit_profit_usd": 0,
+                    "profit_percentage": 0,
+                    "invoice_price": 65,
+                    "invoice_price_usd": 65,
+                    "total_price_per_qty": 65,
+                    "total_price_usd_per_qty": 65,
+                    "total_profit_per_qty": 0,
+                    "total_profit_usd_per_qty": 0,
+                    "total_invoice_price_per_qty": 65,
+                    "total_invoice_price_usd_per_qty": 65,
+                    "lcl_attributes": null
+                  }
+                ],
+                "charge_attributes": {
+                  "contract_rate_adjustment": 0,
+                  "charge_parent_type": null,
+                  "parent_uuid": null,
+                  "children_uuids": []
+                }
+              }
+            ],
+            "totals": {
+              "currency": "USD",
+              "per_container": {
+                "containers": {
+                  "20DV": {
+                    "total_unit_price_usd": 310,
+                    "total_unit_price": 310,
+                    "total_unit_profit": 0,
+                    "total_unit_profit_usd": 0,
+                    "total_unit_invoice_usd": 310,
+                    "total_unit_invoice": 310,
+                    "total_per_qty_price_usd": 310,
+                    "total_per_qty_price": 310,
+                    "total_per_qty_profit_usd": 0,
+                    "total_per_qty_profit": 0,
+                    "total_per_qty_invoice_usd": 310,
+                    "total_per_qty_invoice": 310,
+                    "profit_percentage": 0
+                  }
+                }
+              },
+              "per_container_totals": {
+                "containers": {
+                  "20DV": {
+                    "total_unit_price_usd": 375,
+                    "total_unit_price": 375,
+                    "total_unit_profit": 0,
+                    "total_unit_profit_usd": 0,
+                    "total_unit_invoice_usd": 375,
+                    "total_unit_invoice": 375,
+                    "total_per_qty_price_usd": 375,
+                    "total_per_qty_price": 375,
+                    "total_per_qty_profit_usd": 0,
+                    "total_per_qty_profit": 0,
+                    "total_per_qty_invoice_usd": 375,
+                    "total_per_qty_invoice": 375,
+                    "profit_percentage": 0
+                  }
+                }
+              },
+              "global_totals": {
+                "total_unit_price_usd": 0,
+                "total_unit_price": 0,
+                "total_unit_profit": 0,
+                "total_unit_profit_usd": 0,
+                "total_unit_invoice_usd": 0,
+                "total_unit_invoice": 0,
+                "total_per_qty_price_usd": 0,
+                "total_per_qty_price": 0,
+                "total_per_qty_profit_usd": 0,
+                "total_per_qty_profit": 0,
+                "total_per_qty_invoice_usd": 0,
+                "total_per_qty_invoice": 0,
+                "profit_percentage": 0
+              },
+              "offer_totals": {
+                "total_unit_price_usd": 0,
+                "total_unit_price": 0,
+                "total_unit_profit": 0,
+                "total_unit_profit_usd": 0,
+                "total_unit_invoice_usd": 0,
+                "total_unit_invoice": 0,
+                "total_per_qty_price_usd": 0,
+                "total_per_qty_price": 0,
+                "total_per_qty_profit_usd": 0,
+                "total_per_qty_profit": 0,
+                "total_per_qty_invoice_usd": 0,
+                "total_per_qty_invoice": 0,
+                "profit_percentage": 0
+              }
+            },
+            "remarks": null,
+            "inland_remarks": null
+          },
+          "destination": {
+            "show_charges": true,
+            "charges": [
+              {
+                "show_charge": true,
+                "charge_uuid": "405f9c86-f8ad-444c-a226-4daba291fcbb",
+                "agent_id": null,
+                "agent_name": null,
+                "carrier_id": 1365,
+                "source": "Api",
+                "carrier_uuid": "ed473900-d75d-4f97-b7cf-6c7d20867264",
+                "carrier_name": "MAERSK SPOT",
+                "charge_code": "CPE",
+                "charge_name": "Container Protect Essential",
+                "charge_hazardous": false,
+                "contract_charge_uuid": "7b663f81-7ba9-4854-86d1-866abd665f41",
+                "contract_reference": null,
+                "surcharge_uuid": "347fb562-1e3c-4213-b644-f7628fb22689",
+                "carrier_scac": null,
+                "rate_type_code": "destination",
+                "rate_basis": "Per Container",
+                "rate_basis_value": null,
+                "shipment_type": null,
+                "shipment_type_id": null,
+                "invoice_code": "Container Protect Essential",
+                "payment_method": null,
+                "charge_remarks": null,
+                "quote_charge_remarks": null,
+                "inclusions": null,
+                "valid_from": null,
+                "valid_to": null,
+                "unit_price_currency": "EUR",
+                "invoice_price_currency": "EUR",
+                "commodity": null,
+                "service_name": null,
+                "tariffs": [
+                  {
+                    "quantity": 1,
+                    "container_iso": "20DV",
+                    "container_name": "20 DV",
+                    "unit_price": 19,
+                    "unit_price_usd": 22.17,
+                    "unit_profit": 0,
+                    "unit_profit_usd": 0,
+                    "profit_percentage": 0,
+                    "invoice_price": 19,
+                    "invoice_price_usd": 22.17,
+                    "total_price_per_qty": 19,
+                    "total_price_usd_per_qty": 22.17,
+                    "total_profit_per_qty": 0,
+                    "total_profit_usd_per_qty": 0,
+                    "total_invoice_price_per_qty": 19,
+                    "total_invoice_price_usd_per_qty": 22.17,
+                    "lcl_attributes": null
+                  }
+                ],
+                "charge_attributes": {
+                  "contract_rate_adjustment": 0,
+                  "charge_parent_type": null,
+                  "parent_uuid": null,
+                  "children_uuids": []
+                }
+              },
+              {
+                "show_charge": true,
+                "charge_uuid": "5788768e-afdb-405b-bb62-4d8a05803e6d",
+                "agent_id": null,
+                "agent_name": null,
+                "carrier_id": 1365,
+                "source": "Api",
+                "carrier_uuid": "ed473900-d75d-4f97-b7cf-6c7d20867264",
+                "carrier_name": "MAERSK SPOT",
+                "charge_code": "DHC",
+                "charge_name": "Terminal Handling Service Destination",
+                "charge_hazardous": false,
+                "contract_charge_uuid": "4384544f-281a-43f1-bc61-07ea43bf40a8",
+                "contract_reference": null,
+                "surcharge_uuid": "3d8d391b-fd6f-41d2-b352-aaca980a51e5",
+                "carrier_scac": null,
+                "rate_type_code": "destination",
+                "rate_basis": "Per Container",
+                "rate_basis_value": null,
+                "shipment_type": null,
+                "shipment_type_id": null,
+                "invoice_code": "Terminal Handling Service Destination",
+                "payment_method": null,
+                "charge_remarks": null,
+                "quote_charge_remarks": null,
+                "inclusions": null,
+                "valid_from": null,
+                "valid_to": null,
+                "unit_price_currency": "EUR",
+                "invoice_price_currency": "EUR",
+                "commodity": null,
+                "service_name": null,
+                "tariffs": [
+                  {
+                    "quantity": 1,
+                    "container_iso": "20DV",
+                    "container_name": "20 DV",
+                    "unit_price": 241,
+                    "unit_price_usd": 281.23,
+                    "unit_profit": 0,
+                    "unit_profit_usd": 0,
+                    "profit_percentage": 0,
+                    "invoice_price": 241,
+                    "invoice_price_usd": 281.23,
+                    "total_price_per_qty": 241,
+                    "total_price_usd_per_qty": 281.23,
+                    "total_profit_per_qty": 0,
+                    "total_profit_usd_per_qty": 0,
+                    "total_invoice_price_per_qty": 241,
+                    "total_invoice_price_usd_per_qty": 281.23,
+                    "lcl_attributes": null
+                  }
+                ],
+                "charge_attributes": {
+                  "contract_rate_adjustment": 0,
+                  "charge_parent_type": null,
+                  "parent_uuid": null,
+                  "children_uuids": []
+                }
+              },
+              {
+                "show_charge": true,
+                "charge_uuid": "692e29fb-767a-4c68-8c8b-a085891ac350",
+                "agent_id": null,
+                "agent_name": null,
+                "carrier_id": 1365,
+                "source": "Api",
+                "carrier_uuid": "ed473900-d75d-4f97-b7cf-6c7d20867264",
+                "carrier_name": "MAERSK SPOT",
+                "charge_code": "DDF",
+                "charge_name": "Documentation Fee Destination",
+                "charge_hazardous": false,
+                "contract_charge_uuid": "f8632f78-e8bf-4164-9f2c-465549b3d5d9",
+                "contract_reference": null,
+                "surcharge_uuid": "235e213b-40e1-4c02-a836-85bdd62b1112",
+                "carrier_scac": null,
+                "rate_type_code": "destination",
+                "rate_basis": "Per Bill of Lading",
+                "rate_basis_value": null,
+                "shipment_type": null,
+                "shipment_type_id": null,
+                "invoice_code": "Documentation Fee Destination",
+                "payment_method": null,
+                "charge_remarks": null,
+                "quote_charge_remarks": null,
+                "inclusions": null,
+                "valid_from": null,
+                "valid_to": null,
+                "unit_price_currency": "EUR",
+                "invoice_price_currency": "EUR",
+                "commodity": null,
+                "service_name": null,
+                "tariffs": [
+                  {
+                    "quantity": 1,
+                    "container_iso": "20DV",
+                    "container_name": "20 DV",
+                    "unit_price": 60,
+                    "unit_price_usd": 70.02,
+                    "unit_profit": 0,
+                    "unit_profit_usd": 0,
+                    "profit_percentage": 0,
+                    "invoice_price": 60,
+                    "invoice_price_usd": 70.02,
+                    "total_price_per_qty": 60,
+                    "total_price_usd_per_qty": 70.02,
+                    "total_profit_per_qty": 0,
+                    "total_profit_usd_per_qty": 0,
+                    "total_invoice_price_per_qty": 60,
+                    "total_invoice_price_usd_per_qty": 70.02,
+                    "lcl_attributes": null
+                  }
+                ],
+                "charge_attributes": {
+                  "contract_rate_adjustment": 0,
+                  "charge_parent_type": null,
+                  "parent_uuid": null,
+                  "children_uuids": []
+                }
+              }
+            ],
+            "totals": {
+              "currency": "EUR",
+              "per_container": {
+                "containers": {
+                  "20DV": {
+                    "total_unit_price_usd": 303.41,
+                    "total_unit_price": 260,
+                    "total_unit_profit": 0,
+                    "total_unit_profit_usd": 0,
+                    "total_unit_invoice_usd": 303.41,
+                    "total_unit_invoice": 260,
+                    "total_per_qty_price_usd": 303.41,
+                    "total_per_qty_price": 260,
+                    "total_per_qty_profit_usd": 0,
+                    "total_per_qty_profit": 0,
+                    "total_per_qty_invoice_usd": 303.41,
+                    "total_per_qty_invoice": 260,
+                    "profit_percentage": 0
+                  }
+                }
+              },
+              "per_container_totals": {
+                "containers": {
+                  "20DV": {
+                    "total_unit_price_usd": 373.43,
+                    "total_unit_price": 320,
+                    "total_unit_profit": 0,
+                    "total_unit_profit_usd": 0,
+                    "total_unit_invoice_usd": 373.43,
+                    "total_unit_invoice": 320,
+                    "total_per_qty_price_usd": 373.43,
+                    "total_per_qty_price": 320,
+                    "total_per_qty_profit_usd": 0,
+                    "total_per_qty_profit": 0,
+                    "total_per_qty_invoice_usd": 373.43,
+                    "total_per_qty_invoice": 320,
+                    "profit_percentage": 0
+                  }
+                }
+              },
+              "global_totals": {
+                "total_unit_price_usd": 0,
+                "total_unit_price": 0,
+                "total_unit_profit": 0,
+                "total_unit_profit_usd": 0,
+                "total_unit_invoice_usd": 0,
+                "total_unit_invoice": 0,
+                "total_per_qty_price_usd": 0,
+                "total_per_qty_price": 0,
+                "total_per_qty_profit_usd": 0,
+                "total_per_qty_profit": 0,
+                "total_per_qty_invoice_usd": 0,
+                "total_per_qty_invoice": 0,
+                "profit_percentage": 0
+              },
+              "offer_totals": {
+                "total_unit_price_usd": 0,
+                "total_unit_price": 0,
+                "total_unit_profit": 0,
+                "total_unit_profit_usd": 0,
+                "total_unit_invoice_usd": 0,
+                "total_unit_invoice": 0,
+                "total_per_qty_price_usd": 0,
+                "total_per_qty_price": 0,
+                "total_per_qty_profit_usd": 0,
+                "total_per_qty_profit": 0,
+                "total_per_qty_invoice_usd": 0,
+                "total_per_qty_invoice": 0,
+                "profit_percentage": 0
+              }
+            },
+            "remarks": null,
+            "inland_remarks": null
+          },
+          "totals": {
+            "currency": "USD",
+            "per_container": {
+              "containers": {
+                "20DV": {
+                  "total_unit_price_usd": 952.42,
+                  "total_unit_price": 952.42,
+                  "total_unit_profit": 0,
+                  "total_unit_profit_usd": 0,
+                  "total_unit_invoice_usd": 952.42,
+                  "total_unit_invoice": 952.42,
+                  "total_per_qty_price_usd": 952.42,
+                  "total_per_qty_price": 952.42,
+                  "total_per_qty_profit_usd": 0,
+                  "total_per_qty_profit": 0,
+                  "total_per_qty_invoice_usd": 952.42,
+                  "total_per_qty_invoice": 952.42,
+                  "profit_percentage": 0
+                }
+              }
+            },
+            "per_container_totals": {
+              "containers": {
+                "20DV": {
+                  "total_unit_price_usd": 1087.43,
+                  "total_unit_price": 1087.43,
+                  "total_unit_profit": 0,
+                  "total_unit_profit_usd": 0,
+                  "total_unit_invoice_usd": 1087.43,
+                  "total_unit_invoice": 1087.43,
+                  "total_per_qty_price_usd": 1087.43,
+                  "total_per_qty_price": 1087.43,
+                  "total_per_qty_profit_usd": 0,
+                  "total_per_qty_profit": 0,
+                  "total_per_qty_invoice_usd": 1087.43,
+                  "total_per_qty_invoice": 1087.43,
+                  "profit_percentage": 0
+                }
+              }
+            },
+            "global_totals": {
+              "total_unit_price_usd": 0,
+              "total_unit_price": 0,
+              "total_unit_profit": 0,
+              "total_unit_profit_usd": 0,
+              "total_unit_invoice_usd": 0,
+              "total_unit_invoice": 0,
+              "total_per_qty_price_usd": 0,
+              "total_per_qty_price": 0,
+              "total_per_qty_profit_usd": 0,
+              "total_per_qty_profit": 0,
+              "total_per_qty_invoice_usd": 0,
+              "total_per_qty_invoice": 0,
+              "profit_percentage": 0
+            },
+            "offer_totals": {
+              "total_unit_price_usd": 0,
+              "total_unit_price": 0,
+              "total_unit_profit": 0,
+              "total_unit_profit_usd": 0,
+              "total_unit_invoice_usd": 0,
+              "total_unit_invoice": 0,
+              "total_per_qty_price_usd": 0,
+              "total_per_qty_price": 0,
+              "total_per_qty_profit_usd": 0,
+              "total_per_qty_profit": 0,
+              "total_per_qty_invoice_usd": 0,
+              "total_per_qty_invoice": 0,
+              "profit_percentage": 0
+            }
+          },
+          "dnd_conditions": {
+            "link": null,
+            "conditions": [
+              {
+                "direction": "Import",
+                "charge_type": "Demurrage",
+                "display_name": "Import Demurrage",
+                "commodity": "GENERAL CARGO",
+                "free_time_start_event": "discharge",
+                "rkst_code": "PTLIS",
+                "container_details": [
+                  {
+                    "container_name": "20DRY",
+                    "free_time_grant_in_days": 7,
+                    "charge_per_diem_after_free_time": [
+                      {
+                        "start_day_of_charge": 8,
+                        "end_day_of_charge": 15,
+                        "charge_per_diem": 6,
+                        "currency_of_charge": "EUR"
+                      },
+                      {
+                        "start_day_of_charge": 16,
+                        "end_day_of_charge": null,
+                        "charge_per_diem": 12,
+                        "currency_of_charge": "EUR"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "direction": "Import",
+                "charge_type": "Detention",
+                "display_name": "Import Detention",
+                "commodity": "GENERAL CARGO",
+                "free_time_start_event": "discharge",
+                "rkst_code": "PTLIS",
+                "container_details": [
+                  {
+                    "container_name": "20DRY",
+                    "free_time_grant_in_days": 7,
+                    "charge_per_diem_after_free_time": [
+                      {
+                        "start_day_of_charge": 8,
+                        "end_day_of_charge": 10,
+                        "charge_per_diem": 30,
+                        "currency_of_charge": "EUR"
+                      },
+                      {
+                        "start_day_of_charge": 11,
+                        "end_day_of_charge": null,
+                        "charge_per_diem": 50,
+                        "currency_of_charge": "EUR"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "penalty_fees": [
+            {
+              "display_name": "Amendment Fee",
+              "penalty_type": "AmendmentFee",
+              "fees": [
+                {
+                  "container_name": "20 DV",
+                  "charge_fee": 0,
+                  "currency": "USD"
+                }
+              ]
+            },
+            {
+              "display_name": "Cancellation Fee",
+              "penalty_type": "CancellationFee",
+              "fees": [
+                {
+                  "container_name": "20 DV",
+                  "charge_fee": 10,
+                  "currency": "USD"
+                }
+              ]
+            },
+            {
+              "display_name": "No Show Fee",
+              "penalty_type": "NoShowFee",
+              "fees": [
+                {
+                  "container_name": "20 DV",
+                  "charge_fee": 20,
+                  "currency": "USD"
+                }
+              ]
+            },
+            {
+              "display_name": "Compensation Fee",
+              "penalty_type": "CompensationFee",
+              "fees": [
+                {
+                  "container_name": "20 DV",
+                  "charge_fee": -10,
+                  "currency": "USD"
+                }
+              ]
+            }
+          ]
+        },
+        "schedules": [
+          {
+            "route_schedule_id": "bae78699-8b52-4f1b-81ed-c6215ac048b6",
+            "departure_date": "2026-02-02T10:30:00Z",
+            "arrival_date": "2026-03-02T17:00:00Z",
+            "datetime_format": "UTC",
+            "transit_time": "28",
+            "carrier_scac": "MAEU",
+            "service_type": "Transshipment",
+            "schedule_status": "Invalid",
+            "schedule_details": {
+              "legs": [
+                {
+                  "from_location": {
+                    "id": 296,
+                    "name": "Haifa port Terminal",
+                    "code": "ILHFA",
+                    "unlo_code": null,
+                    "type": "TERMINAL",
+                    "city_name": "Haifa",
+                    "region_name": null,
+                    "country_code": "IL",
+                    "country_name": "Israel",
+                    "codification_type": null,
+                    "arrival_date": null,
+                    "arrival_time": null,
+                    "departure_date": "2026-02-02",
+                    "departure_time": "10:30:00",
+                    "timezone": "GMT"
+                  },
+                  "to_location": {
+                    "id": 201,
+                    "name": "Algeciras - ML Terminal",
+                    "code": "ESALG",
+                    "unlo_code": null,
+                    "type": "RAIL TERMINAL",
+                    "city_name": "Algeciras",
+                    "region_name": null,
+                    "country_code": "ES",
+                    "country_name": "Spain",
+                    "codification_type": null,
+                    "arrival_date": "2026-02-16",
+                    "arrival_time": "20:00:00",
+                    "departure_date": "2026-03-01",
+                    "departure_time": "02:00:00",
+                    "timezone": "GMT"
+                  },
+                  "transport": {
+                    "type_of_transport": "MVS",
+                    "transport_leg": "1/2",
+                    "reference_type": null,
+                    "reference": "9356098",
+                    "vehicle_name": "Maersk Narmada",
+                    "CO2e": null,
+                    "voyage_reference": "604W",
+                    "service_name": null,
+                    "leg_transit_time": null,
+                    "carrier_name": null,
+                    "carrier_code": null,
+                    "carrier_source": null,
+                    "inventory_teus": null
+                  },
+                  "deadlines": [
+                    {
+                      "deadline_key": "CY",
+                      "name": "Commercial Cargo Cutoff",
+                      "type": null,
+                      "deadline_date": "2026-02-01 07:30:00"
+                    }
+                  ]
+                },
+                {
+                  "from_location": {
+                    "id": 201,
+                    "name": "Algeciras - ML Terminal",
+                    "code": "ESALG",
+                    "unlo_code": null,
+                    "type": "RAIL TERMINAL",
+                    "city_name": "Algeciras",
+                    "region_name": null,
+                    "country_code": "ES",
+                    "country_name": "Spain",
+                    "codification_type": null,
+                    "arrival_date": "2026-02-16",
+                    "arrival_time": "20:00:00",
+                    "departure_date": "2026-03-01",
+                    "departure_time": "02:00:00",
+                    "timezone": "GMT"
+                  },
+                  "to_location": {
+                    "id": 580,
+                    "name": "Terminal de Contentores de Alcantar",
+                    "code": "PTLIS",
+                    "unlo_code": null,
+                    "type": "DEPOT",
+                    "city_name": "Lisbon",
+                    "region_name": null,
+                    "country_code": "PT",
+                    "country_name": "Portugal",
+                    "codification_type": null,
+                    "arrival_date": "2026-03-02",
+                    "arrival_time": "17:00:00",
+                    "departure_date": null,
+                    "departure_time": null,
+                    "timezone": "GMT"
+                  },
+                  "transport": {
+                    "type_of_transport": "FEF",
+                    "transport_leg": "2/2",
+                    "reference_type": null,
+                    "reference": "9866005",
+                    "vehicle_name": "GREEN POLE",
+                    "CO2e": null,
+                    "voyage_reference": "609N",
+                    "service_name": null,
+                    "leg_transit_time": null,
+                    "carrier_name": null,
+                    "carrier_code": null,
+                    "carrier_source": null,
+                    "inventory_teus": null
+                  },
+                  "deadlines": [
+                    {
+                      "deadline_key": "CY",
+                      "name": "Commercial Cargo Cutoff",
+                      "type": null,
+                      "deadline_date": "2026-02-27 16:00:00"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "product_offer": {
+          "rate_uuid": "de9ac159-ecbb-44f5-a120-32a1fe963642",
+          "rate_status": "Valid",
+          "rate_source": "Default",
+          "service_type": "Transshipment",
+          "main_carrier_scac": "MAEU",
+          "main_carrier_id": 1365,
+          "main_carrier_uuid": "ed473900-d75d-4f97-b7cf-6c7d20867264",
+          "main_carrier_code": "MSK",
+          "main_carrier_name": "Maersk",
+          "main_carrier_logo": "https://cargofive-production-21.s3.eu-central-1.amazonaws.com/imgcarrier/maersk.png",
+          "main_source_type": "Api",
+          "main_product_type": null,
+          "main_product_name": "MAERSK SPOT",
+          "codification_type": null,
+          "origin_port_id": 296,
+          "origin_port_display_name": "Haifa",
+          "origin_port_unlocode": "ILHFA",
+          "origin_location_id": null,
+          "origin_location_display_name": null,
+          "origin_location_unlocode": null,
+          "destination_port_id": 580,
+          "destination_port_display_name": "Lisbon",
+          "destination_port_unlocode": "PTLIS",
+          "destination_location_id": null,
+          "destination_location_display_name": null,
+          "destination_location_unlocode": null,
+          "origin_service_type": "CY",
+          "destination_service_type": "CY",
+          "via_port": [],
+          "hazardous": false,
+          "kind_of_cargo_id": null,
+          "kind_of_cargo": null,
+          "commodity": null,
+          "service_name": null,
+          "rate_details": {
+            "contract_uuid": null,
+            "carrier_offer_id": "O_P02fmsdrc",
+            "reference": null,
+            "contract_status": null,
+            "file": null,
+            "future_date": false,
+            "named_accounts": [],
+            "additional_data": {
+              "link": "https://www.maersk.com/prices-and-quotes?utm_source=affiliate&utm_medium=referral&utm_campaign=cargofive&utm_id=cargofive",
+              "book_now_link": "https://www.maersk.com/prices-and-quotes?utm_source=affiliate&utm_medium=referral&utm_campaign=cargofive&utm_id=cargofive"
+            }
+          }
+        },
+        "product_price": {
+          "valid_from": null,
+          "valid_to": null,
+          "freight": {
+            "show_charges": true,
+            "charges": [
+              {
+                "show_charge": true,
+                "charge_uuid": "c309731a-a9fd-498b-b6c8-ec81753fc93e",
+                "agent_id": null,
+                "agent_name": null,
+                "carrier_id": 1365,
+                "source": "Api",
+                "carrier_uuid": "ed473900-d75d-4f97-b7cf-6c7d20867264",
+                "carrier_name": "MAERSK SPOT",
+                "charge_code": "BAS",
+                "charge_name": "Ocean Freight",
+                "charge_hazardous": false,
+                "contract_charge_uuid": "f88bef3c-0e8f-4b4f-ab49-9a60363572a9",
+                "contract_reference": null,
+                "surcharge_uuid": "a61b088f-669e-4b3b-ba5f-0337af6c706c",
+                "carrier_scac": null,
+                "rate_type_code": "freight",
+                "rate_basis": "Per Container",
+                "rate_basis_value": null,
+                "shipment_type": null,
+                "shipment_type_id": null,
+                "invoice_code": "Ocean Freight",
+                "payment_method": null,
+                "charge_remarks": null,
+                "quote_charge_remarks": null,
+                "inclusions": null,
+                "valid_from": null,
+                "valid_to": null,
+                "unit_price_currency": "USD",
+                "invoice_price_currency": "USD",
+                "commodity": null,
+                "service_name": null,
+                "tariffs": [
+                  {
+                    "quantity": 1,
+                    "container_iso": "20DV",
+                    "container_name": "20 DV",
+                    "unit_price": 302,
+                    "unit_price_usd": 302,
+                    "unit_profit": 0,
+                    "unit_profit_usd": 0,
+                    "profit_percentage": 0,
+                    "invoice_price": 302,
+                    "invoice_price_usd": 302,
+                    "total_price_per_qty": 302,
+                    "total_price_usd_per_qty": 302,
+                    "total_profit_per_qty": 0,
+                    "total_profit_usd_per_qty": 0,
+                    "total_invoice_price_per_qty": 302,
+                    "total_invoice_price_usd_per_qty": 302,
+                    "lcl_attributes": null
+                  }
+                ],
+                "charge_attributes": {
+                  "contract_rate_adjustment": 0,
+                  "charge_parent_type": null,
+                  "parent_uuid": null,
+                  "children_uuids": []
+                }
+              },
+              {
+                "show_charge": true,
+                "charge_uuid": "0a2f3e05-7e31-4991-a12e-b7ca8e1c690e",
+                "agent_id": null,
+                "agent_name": null,
+                "carrier_id": 1365,
+                "source": "Api",
+                "carrier_uuid": "ed473900-d75d-4f97-b7cf-6c7d20867264",
+                "carrier_name": "MAERSK SPOT",
+                "charge_code": "NEF",
+                "charge_name": "Emission Fee",
+                "charge_hazardous": false,
+                "contract_charge_uuid": "ac7d8178-5b14-46f7-85db-76fa5968e2e4",
+                "contract_reference": null,
+                "surcharge_uuid": "9bafb397-e060-41d8-827f-a40335871bbd",
+                "carrier_scac": null,
+                "rate_type_code": "freight_surcharge",
+                "rate_basis": "Per Container",
+                "rate_basis_value": null,
+                "shipment_type": null,
+                "shipment_type_id": null,
+                "invoice_code": "Emission Fee",
+                "payment_method": null,
+                "charge_remarks": null,
+                "quote_charge_remarks": null,
+                "inclusions": null,
+                "valid_from": null,
+                "valid_to": null,
+                "unit_price_currency": "USD",
+                "invoice_price_currency": "USD",
+                "commodity": null,
+                "service_name": null,
+                "tariffs": [
+                  {
+                    "quantity": 1,
+                    "container_iso": "20DV",
+                    "container_name": "20 DV",
+                    "unit_price": 28,
+                    "unit_price_usd": 28,
+                    "unit_profit": 0,
+                    "unit_profit_usd": 0,
+                    "profit_percentage": 0,
+                    "invoice_price": 28,
+                    "invoice_price_usd": 28,
+                    "total_price_per_qty": 28,
+                    "total_price_usd_per_qty": 28,
+                    "total_profit_per_qty": 0,
+                    "total_profit_usd_per_qty": 0,
+                    "total_invoice_price_per_qty": 28,
+                    "total_invoice_price_usd_per_qty": 28,
+                    "lcl_attributes": null
+                  }
+                ],
+                "charge_attributes": {
+                  "contract_rate_adjustment": 0,
+                  "charge_parent_type": null,
+                  "parent_uuid": null,
+                  "children_uuids": []
+                }
+              },
+              {
+                "show_charge": true,
+                "charge_uuid": "6da7b159-ba31-4077-87fc-e906cb6f9dad",
+                "agent_id": null,
+                "agent_name": null,
+                "carrier_id": 1365,
+                "source": "Api",
+                "carrier_uuid": "ed473900-d75d-4f97-b7cf-6c7d20867264",
+                "carrier_name": "MAERSK SPOT",
+                "charge_code": "ERS",
+                "charge_name": "Emergency Risk Surcharge",
+                "charge_hazardous": false,
+                "contract_charge_uuid": "e3413003-be3f-4313-86b0-696060cc7a96",
+                "contract_reference": null,
+                "surcharge_uuid": "05912d6d-b376-4fcb-bcf1-6dcaee8f3715",
+                "carrier_scac": null,
+                "rate_type_code": "freight_surcharge",
+                "rate_basis": "Per Container",
+                "rate_basis_value": null,
+                "shipment_type": null,
+                "shipment_type_id": null,
+                "invoice_code": "Emergency Risk Surcharge",
+                "payment_method": null,
+                "charge_remarks": null,
+                "quote_charge_remarks": null,
+                "inclusions": null,
+                "valid_from": null,
+                "valid_to": null,
+                "unit_price_currency": "USD",
+                "invoice_price_currency": "USD",
+                "commodity": null,
+                "service_name": null,
+                "tariffs": [
+                  {
+                    "quantity": 1,
+                    "container_iso": "20DV",
+                    "container_name": "20 DV",
+                    "unit_price": 9,
+                    "unit_price_usd": 9,
+                    "unit_profit": 0,
+                    "unit_profit_usd": 0,
+                    "profit_percentage": 0,
+                    "invoice_price": 9,
+                    "invoice_price_usd": 9,
+                    "total_price_per_qty": 9,
+                    "total_price_usd_per_qty": 9,
+                    "total_profit_per_qty": 0,
+                    "total_profit_usd_per_qty": 0,
+                    "total_invoice_price_per_qty": 9,
+                    "total_invoice_price_usd_per_qty": 9,
+                    "lcl_attributes": null
+                  }
+                ],
+                "charge_attributes": {
+                  "contract_rate_adjustment": 0,
+                  "charge_parent_type": null,
+                  "parent_uuid": null,
+                  "children_uuids": []
+                }
+              }
+            ],
+            "totals": {
+              "currency": "USD",
+              "per_container": {
+                "containers": {
+                  "20DV": {
+                    "total_unit_price_usd": 339,
+                    "total_unit_price": 339,
+                    "total_unit_profit": 0,
+                    "total_unit_profit_usd": 0,
+                    "total_unit_invoice_usd": 339,
+                    "total_unit_invoice": 339,
+                    "total_per_qty_price_usd": 339,
+                    "total_per_qty_price": 339,
+                    "total_per_qty_profit_usd": 0,
+                    "total_per_qty_profit": 0,
+                    "total_per_qty_invoice_usd": 339,
+                    "total_per_qty_invoice": 339,
+                    "profit_percentage": 0
+                  }
+                }
+              },
+              "per_container_totals": {
+                "containers": {
+                  "20DV": {
+                    "total_unit_price_usd": 339,
+                    "total_unit_price": 339,
+                    "total_unit_profit": 0,
+                    "total_unit_profit_usd": 0,
+                    "total_unit_invoice_usd": 339,
+                    "total_unit_invoice": 339,
+                    "total_per_qty_price_usd": 339,
+                    "total_per_qty_price": 339,
+                    "total_per_qty_profit_usd": 0,
+                    "total_per_qty_profit": 0,
+                    "total_per_qty_invoice_usd": 339,
+                    "total_per_qty_invoice": 339,
+                    "profit_percentage": 0
+                  }
+                }
+              },
+              "global_totals": {
+                "total_unit_price_usd": 0,
+                "total_unit_price": 0,
+                "total_unit_profit": 0,
+                "total_unit_profit_usd": 0,
+                "total_unit_invoice_usd": 0,
+                "total_unit_invoice": 0,
+                "total_per_qty_price_usd": 0,
+                "total_per_qty_price": 0,
+                "total_per_qty_profit_usd": 0,
+                "total_per_qty_profit": 0,
+                "total_per_qty_invoice_usd": 0,
+                "total_per_qty_invoice": 0,
+                "profit_percentage": 0
+              },
+              "offer_totals": {
+                "total_unit_price_usd": 0,
+                "total_unit_price": 0,
+                "total_unit_profit": 0,
+                "total_unit_profit_usd": 0,
+                "total_unit_invoice_usd": 0,
+                "total_unit_invoice": 0,
+                "total_per_qty_price_usd": 0,
+                "total_per_qty_price": 0,
+                "total_per_qty_profit_usd": 0,
+                "total_per_qty_profit": 0,
+                "total_per_qty_invoice_usd": 0,
+                "total_per_qty_invoice": 0,
+                "profit_percentage": 0
+              }
+            },
+            "remarks": null,
+            "inclusions": null
+          },
+          "origin": {
+            "show_charges": true,
+            "charges": [
+              {
+                "show_charge": true,
+                "charge_uuid": "322370a9-1cb7-4f25-8a05-602ddce72f3f",
+                "agent_id": null,
+                "agent_name": null,
+                "carrier_id": 1365,
+                "source": "Api",
+                "carrier_uuid": "ed473900-d75d-4f97-b7cf-6c7d20867264",
+                "carrier_name": "MAERSK SPOT",
+                "charge_code": "OTHC",
+                "charge_name": "TERMINAL HANDLING CHARGE ORIGIN",
+                "charge_hazardous": false,
+                "contract_charge_uuid": "ed0521c0-bda7-44fa-a73a-1336419acd9b",
+                "contract_reference": null,
+                "surcharge_uuid": "e30d75f8-ec57-4234-80b0-d131341d5cd4",
+                "carrier_scac": null,
+                "rate_type_code": "origin",
+                "rate_basis": "Per Container",
+                "rate_basis_value": null,
+                "shipment_type": null,
+                "shipment_type_id": null,
+                "invoice_code": "TERMINAL HANDLING CHARGE ORIGIN",
+                "payment_method": null,
+                "charge_remarks": null,
+                "quote_charge_remarks": null,
+                "inclusions": null,
+                "valid_from": null,
+                "valid_to": null,
+                "unit_price_currency": "USD",
+                "invoice_price_currency": "USD",
+                "commodity": null,
+                "service_name": null,
+                "tariffs": [
+                  {
+                    "quantity": 1,
+                    "container_iso": "20DV",
+                    "container_name": "20 DV",
+                    "unit_price": 310,
+                    "unit_price_usd": 310,
+                    "unit_profit": 0,
+                    "unit_profit_usd": 0,
+                    "profit_percentage": 0,
+                    "invoice_price": 310,
+                    "invoice_price_usd": 310,
+                    "total_price_per_qty": 310,
+                    "total_price_usd_per_qty": 310,
+                    "total_profit_per_qty": 0,
+                    "total_profit_usd_per_qty": 0,
+                    "total_invoice_price_per_qty": 310,
+                    "total_invoice_price_usd_per_qty": 310,
+                    "lcl_attributes": null
+                  }
+                ],
+                "charge_attributes": {
+                  "contract_rate_adjustment": 0,
+                  "charge_parent_type": null,
+                  "parent_uuid": null,
+                  "children_uuids": []
+                }
+              },
+              {
+                "show_charge": true,
+                "charge_uuid": "e1b71cde-64ed-426d-91ec-e7b93904ac96",
+                "agent_id": null,
+                "agent_name": null,
+                "carrier_id": 1365,
+                "source": "Api",
+                "carrier_uuid": "ed473900-d75d-4f97-b7cf-6c7d20867264",
+                "carrier_name": "MAERSK SPOT",
+                "charge_code": "ODF",
+                "charge_name": "Documentation Fee Origin",
+                "charge_hazardous": false,
+                "contract_charge_uuid": "824cb68f-cab0-4ede-b256-dec9961343cb",
+                "contract_reference": null,
+                "surcharge_uuid": "660f4705-6b44-4ece-8fd7-3345865a6bab",
+                "carrier_scac": null,
+                "rate_type_code": "origin",
+                "rate_basis": "Per Bill of Lading",
+                "rate_basis_value": null,
+                "shipment_type": null,
+                "shipment_type_id": null,
+                "invoice_code": "Documentation Fee Origin",
+                "payment_method": null,
+                "charge_remarks": null,
+                "quote_charge_remarks": null,
+                "inclusions": null,
+                "valid_from": null,
+                "valid_to": null,
+                "unit_price_currency": "USD",
+                "invoice_price_currency": "USD",
+                "commodity": null,
+                "service_name": null,
+                "tariffs": [
+                  {
+                    "quantity": 1,
+                    "container_iso": "20DV",
+                    "container_name": "20 DV",
+                    "unit_price": 65,
+                    "unit_price_usd": 65,
+                    "unit_profit": 0,
+                    "unit_profit_usd": 0,
+                    "profit_percentage": 0,
+                    "invoice_price": 65,
+                    "invoice_price_usd": 65,
+                    "total_price_per_qty": 65,
+                    "total_price_usd_per_qty": 65,
+                    "total_profit_per_qty": 0,
+                    "total_profit_usd_per_qty": 0,
+                    "total_invoice_price_per_qty": 65,
+                    "total_invoice_price_usd_per_qty": 65,
+                    "lcl_attributes": null
+                  }
+                ],
+                "charge_attributes": {
+                  "contract_rate_adjustment": 0,
+                  "charge_parent_type": null,
+                  "parent_uuid": null,
+                  "children_uuids": []
+                }
+              }
+            ],
+            "totals": {
+              "currency": "USD",
+              "per_container": {
+                "containers": {
+                  "20DV": {
+                    "total_unit_price_usd": 310,
+                    "total_unit_price": 310,
+                    "total_unit_profit": 0,
+                    "total_unit_profit_usd": 0,
+                    "total_unit_invoice_usd": 310,
+                    "total_unit_invoice": 310,
+                    "total_per_qty_price_usd": 310,
+                    "total_per_qty_price": 310,
+                    "total_per_qty_profit_usd": 0,
+                    "total_per_qty_profit": 0,
+                    "total_per_qty_invoice_usd": 310,
+                    "total_per_qty_invoice": 310,
+                    "profit_percentage": 0
+                  }
+                }
+              },
+              "per_container_totals": {
+                "containers": {
+                  "20DV": {
+                    "total_unit_price_usd": 375,
+                    "total_unit_price": 375,
+                    "total_unit_profit": 0,
+                    "total_unit_profit_usd": 0,
+                    "total_unit_invoice_usd": 375,
+                    "total_unit_invoice": 375,
+                    "total_per_qty_price_usd": 375,
+                    "total_per_qty_price": 375,
+                    "total_per_qty_profit_usd": 0,
+                    "total_per_qty_profit": 0,
+                    "total_per_qty_invoice_usd": 375,
+                    "total_per_qty_invoice": 375,
+                    "profit_percentage": 0
+                  }
+                }
+              },
+              "global_totals": {
+                "total_unit_price_usd": 0,
+                "total_unit_price": 0,
+                "total_unit_profit": 0,
+                "total_unit_profit_usd": 0,
+                "total_unit_invoice_usd": 0,
+                "total_unit_invoice": 0,
+                "total_per_qty_price_usd": 0,
+                "total_per_qty_price": 0,
+                "total_per_qty_profit_usd": 0,
+                "total_per_qty_profit": 0,
+                "total_per_qty_invoice_usd": 0,
+                "total_per_qty_invoice": 0,
+                "profit_percentage": 0
+              },
+              "offer_totals": {
+                "total_unit_price_usd": 0,
+                "total_unit_price": 0,
+                "total_unit_profit": 0,
+                "total_unit_profit_usd": 0,
+                "total_unit_invoice_usd": 0,
+                "total_unit_invoice": 0,
+                "total_per_qty_price_usd": 0,
+                "total_per_qty_price": 0,
+                "total_per_qty_profit_usd": 0,
+                "total_per_qty_profit": 0,
+                "total_per_qty_invoice_usd": 0,
+                "total_per_qty_invoice": 0,
+                "profit_percentage": 0
+              }
+            },
+            "remarks": null,
+            "inland_remarks": null
+          },
+          "destination": {
+            "show_charges": true,
+            "charges": [
+              {
+                "show_charge": true,
+                "charge_uuid": "5a075d19-d9b9-4d74-9c73-acb5a9f51ef0",
+                "agent_id": null,
+                "agent_name": null,
+                "carrier_id": 1365,
+                "source": "Api",
+                "carrier_uuid": "ed473900-d75d-4f97-b7cf-6c7d20867264",
+                "carrier_name": "MAERSK SPOT",
+                "charge_code": "CPE",
+                "charge_name": "Container Protect Essential",
+                "charge_hazardous": false,
+                "contract_charge_uuid": "c46c0d19-e008-4fe1-9abf-0b15f8bec189",
+                "contract_reference": null,
+                "surcharge_uuid": "347fb562-1e3c-4213-b644-f7628fb22689",
+                "carrier_scac": null,
+                "rate_type_code": "destination",
+                "rate_basis": "Per Container",
+                "rate_basis_value": null,
+                "shipment_type": null,
+                "shipment_type_id": null,
+                "invoice_code": "Container Protect Essential",
+                "payment_method": null,
+                "charge_remarks": null,
+                "quote_charge_remarks": null,
+                "inclusions": null,
+                "valid_from": null,
+                "valid_to": null,
+                "unit_price_currency": "EUR",
+                "invoice_price_currency": "EUR",
+                "commodity": null,
+                "service_name": null,
+                "tariffs": [
+                  {
+                    "quantity": 1,
+                    "container_iso": "20DV",
+                    "container_name": "20 DV",
+                    "unit_price": 19,
+                    "unit_price_usd": 22.17,
+                    "unit_profit": 0,
+                    "unit_profit_usd": 0,
+                    "profit_percentage": 0,
+                    "invoice_price": 19,
+                    "invoice_price_usd": 22.17,
+                    "total_price_per_qty": 19,
+                    "total_price_usd_per_qty": 22.17,
+                    "total_profit_per_qty": 0,
+                    "total_profit_usd_per_qty": 0,
+                    "total_invoice_price_per_qty": 19,
+                    "total_invoice_price_usd_per_qty": 22.17,
+                    "lcl_attributes": null
+                  }
+                ],
+                "charge_attributes": {
+                  "contract_rate_adjustment": 0,
+                  "charge_parent_type": null,
+                  "parent_uuid": null,
+                  "children_uuids": []
+                }
+              },
+              {
+                "show_charge": true,
+                "charge_uuid": "a6cf3714-5f73-4de3-b237-7f6349aaaeeb",
+                "agent_id": null,
+                "agent_name": null,
+                "carrier_id": 1365,
+                "source": "Api",
+                "carrier_uuid": "ed473900-d75d-4f97-b7cf-6c7d20867264",
+                "carrier_name": "MAERSK SPOT",
+                "charge_code": "DHC",
+                "charge_name": "Terminal Handling Service Destination",
+                "charge_hazardous": false,
+                "contract_charge_uuid": "d875ce6b-9e3b-46bf-8eaa-f00691ba0078",
+                "contract_reference": null,
+                "surcharge_uuid": "3d8d391b-fd6f-41d2-b352-aaca980a51e5",
+                "carrier_scac": null,
+                "rate_type_code": "destination",
+                "rate_basis": "Per Container",
+                "rate_basis_value": null,
+                "shipment_type": null,
+                "shipment_type_id": null,
+                "invoice_code": "Terminal Handling Service Destination",
+                "payment_method": null,
+                "charge_remarks": null,
+                "quote_charge_remarks": null,
+                "inclusions": null,
+                "valid_from": null,
+                "valid_to": null,
+                "unit_price_currency": "EUR",
+                "invoice_price_currency": "EUR",
+                "commodity": null,
+                "service_name": null,
+                "tariffs": [
+                  {
+                    "quantity": 1,
+                    "container_iso": "20DV",
+                    "container_name": "20 DV",
+                    "unit_price": 241,
+                    "unit_price_usd": 281.23,
+                    "unit_profit": 0,
+                    "unit_profit_usd": 0,
+                    "profit_percentage": 0,
+                    "invoice_price": 241,
+                    "invoice_price_usd": 281.23,
+                    "total_price_per_qty": 241,
+                    "total_price_usd_per_qty": 281.23,
+                    "total_profit_per_qty": 0,
+                    "total_profit_usd_per_qty": 0,
+                    "total_invoice_price_per_qty": 241,
+                    "total_invoice_price_usd_per_qty": 281.23,
+                    "lcl_attributes": null
+                  }
+                ],
+                "charge_attributes": {
+                  "contract_rate_adjustment": 0,
+                  "charge_parent_type": null,
+                  "parent_uuid": null,
+                  "children_uuids": []
+                }
+              },
+              {
+                "show_charge": true,
+                "charge_uuid": "ef80eb0e-4405-4f73-a9b6-15f2d317cf80",
+                "agent_id": null,
+                "agent_name": null,
+                "carrier_id": 1365,
+                "source": "Api",
+                "carrier_uuid": "ed473900-d75d-4f97-b7cf-6c7d20867264",
+                "carrier_name": "MAERSK SPOT",
+                "charge_code": "DDF",
+                "charge_name": "Documentation Fee Destination",
+                "charge_hazardous": false,
+                "contract_charge_uuid": "f404e88d-03f5-460d-92e3-ffff2bdc4001",
+                "contract_reference": null,
+                "surcharge_uuid": "235e213b-40e1-4c02-a836-85bdd62b1112",
+                "carrier_scac": null,
+                "rate_type_code": "destination",
+                "rate_basis": "Per Bill of Lading",
+                "rate_basis_value": null,
+                "shipment_type": null,
+                "shipment_type_id": null,
+                "invoice_code": "Documentation Fee Destination",
+                "payment_method": null,
+                "charge_remarks": null,
+                "quote_charge_remarks": null,
+                "inclusions": null,
+                "valid_from": null,
+                "valid_to": null,
+                "unit_price_currency": "EUR",
+                "invoice_price_currency": "EUR",
+                "commodity": null,
+                "service_name": null,
+                "tariffs": [
+                  {
+                    "quantity": 1,
+                    "container_iso": "20DV",
+                    "container_name": "20 DV",
+                    "unit_price": 60,
+                    "unit_price_usd": 70.02,
+                    "unit_profit": 0,
+                    "unit_profit_usd": 0,
+                    "profit_percentage": 0,
+                    "invoice_price": 60,
+                    "invoice_price_usd": 70.02,
+                    "total_price_per_qty": 60,
+                    "total_price_usd_per_qty": 70.02,
+                    "total_profit_per_qty": 0,
+                    "total_profit_usd_per_qty": 0,
+                    "total_invoice_price_per_qty": 60,
+                    "total_invoice_price_usd_per_qty": 70.02,
+                    "lcl_attributes": null
+                  }
+                ],
+                "charge_attributes": {
+                  "contract_rate_adjustment": 0,
+                  "charge_parent_type": null,
+                  "parent_uuid": null,
+                  "children_uuids": []
+                }
+              }
+            ],
+            "totals": {
+              "currency": "EUR",
+              "per_container": {
+                "containers": {
+                  "20DV": {
+                    "total_unit_price_usd": 303.41,
+                    "total_unit_price": 260,
+                    "total_unit_profit": 0,
+                    "total_unit_profit_usd": 0,
+                    "total_unit_invoice_usd": 303.41,
+                    "total_unit_invoice": 260,
+                    "total_per_qty_price_usd": 303.41,
+                    "total_per_qty_price": 260,
+                    "total_per_qty_profit_usd": 0,
+                    "total_per_qty_profit": 0,
+                    "total_per_qty_invoice_usd": 303.41,
+                    "total_per_qty_invoice": 260,
+                    "profit_percentage": 0
+                  }
+                }
+              },
+              "per_container_totals": {
+                "containers": {
+                  "20DV": {
+                    "total_unit_price_usd": 373.43,
+                    "total_unit_price": 320,
+                    "total_unit_profit": 0,
+                    "total_unit_profit_usd": 0,
+                    "total_unit_invoice_usd": 373.43,
+                    "total_unit_invoice": 320,
+                    "total_per_qty_price_usd": 373.43,
+                    "total_per_qty_price": 320,
+                    "total_per_qty_profit_usd": 0,
+                    "total_per_qty_profit": 0,
+                    "total_per_qty_invoice_usd": 373.43,
+                    "total_per_qty_invoice": 320,
+                    "profit_percentage": 0
+                  }
+                }
+              },
+              "global_totals": {
+                "total_unit_price_usd": 0,
+                "total_unit_price": 0,
+                "total_unit_profit": 0,
+                "total_unit_profit_usd": 0,
+                "total_unit_invoice_usd": 0,
+                "total_unit_invoice": 0,
+                "total_per_qty_price_usd": 0,
+                "total_per_qty_price": 0,
+                "total_per_qty_profit_usd": 0,
+                "total_per_qty_profit": 0,
+                "total_per_qty_invoice_usd": 0,
+                "total_per_qty_invoice": 0,
+                "profit_percentage": 0
+              },
+              "offer_totals": {
+                "total_unit_price_usd": 0,
+                "total_unit_price": 0,
+                "total_unit_profit": 0,
+                "total_unit_profit_usd": 0,
+                "total_unit_invoice_usd": 0,
+                "total_unit_invoice": 0,
+                "total_per_qty_price_usd": 0,
+                "total_per_qty_price": 0,
+                "total_per_qty_profit_usd": 0,
+                "total_per_qty_profit": 0,
+                "total_per_qty_invoice_usd": 0,
+                "total_per_qty_invoice": 0,
+                "profit_percentage": 0
+              }
+            },
+            "remarks": null,
+            "inland_remarks": null
+          },
+          "totals": {
+            "currency": "USD",
+            "per_container": {
+              "containers": {
+                "20DV": {
+                  "total_unit_price_usd": 952.42,
+                  "total_unit_price": 952.42,
+                  "total_unit_profit": 0,
+                  "total_unit_profit_usd": 0,
+                  "total_unit_invoice_usd": 952.42,
+                  "total_unit_invoice": 952.42,
+                  "total_per_qty_price_usd": 952.42,
+                  "total_per_qty_price": 952.42,
+                  "total_per_qty_profit_usd": 0,
+                  "total_per_qty_profit": 0,
+                  "total_per_qty_invoice_usd": 952.42,
+                  "total_per_qty_invoice": 952.42,
+                  "profit_percentage": 0
+                }
+              }
+            },
+            "per_container_totals": {
+              "containers": {
+                "20DV": {
+                  "total_unit_price_usd": 1087.43,
+                  "total_unit_price": 1087.43,
+                  "total_unit_profit": 0,
+                  "total_unit_profit_usd": 0,
+                  "total_unit_invoice_usd": 1087.43,
+                  "total_unit_invoice": 1087.43,
+                  "total_per_qty_price_usd": 1087.43,
+                  "total_per_qty_price": 1087.43,
+                  "total_per_qty_profit_usd": 0,
+                  "total_per_qty_profit": 0,
+                  "total_per_qty_invoice_usd": 1087.43,
+                  "total_per_qty_invoice": 1087.43,
+                  "profit_percentage": 0
+                }
+              }
+            },
+            "global_totals": {
+              "total_unit_price_usd": 0,
+              "total_unit_price": 0,
+              "total_unit_profit": 0,
+              "total_unit_profit_usd": 0,
+              "total_unit_invoice_usd": 0,
+              "total_unit_invoice": 0,
+              "total_per_qty_price_usd": 0,
+              "total_per_qty_price": 0,
+              "total_per_qty_profit_usd": 0,
+              "total_per_qty_profit": 0,
+              "total_per_qty_invoice_usd": 0,
+              "total_per_qty_invoice": 0,
+              "profit_percentage": 0
+            },
+            "offer_totals": {
+              "total_unit_price_usd": 0,
+              "total_unit_price": 0,
+              "total_unit_profit": 0,
+              "total_unit_profit_usd": 0,
+              "total_unit_invoice_usd": 0,
+              "total_unit_invoice": 0,
+              "total_per_qty_price_usd": 0,
+              "total_per_qty_price": 0,
+              "total_per_qty_profit_usd": 0,
+              "total_per_qty_profit": 0,
+              "total_per_qty_invoice_usd": 0,
+              "total_per_qty_invoice": 0,
+              "profit_percentage": 0
+            }
+          },
+          "dnd_conditions": {
+            "link": null,
+            "conditions": [
+              {
+                "direction": "Import",
+                "charge_type": "Demurrage",
+                "display_name": "Import Demurrage",
+                "commodity": "GENERAL CARGO",
+                "free_time_start_event": "discharge",
+                "rkst_code": "PTLIS",
+                "container_details": [
+                  {
+                    "container_name": "20DRY",
+                    "free_time_grant_in_days": 7,
+                    "charge_per_diem_after_free_time": [
+                      {
+                        "start_day_of_charge": 8,
+                        "end_day_of_charge": 15,
+                        "charge_per_diem": 6,
+                        "currency_of_charge": "EUR"
+                      },
+                      {
+                        "start_day_of_charge": 16,
+                        "end_day_of_charge": null,
+                        "charge_per_diem": 12,
+                        "currency_of_charge": "EUR"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "direction": "Import",
+                "charge_type": "Detention",
+                "display_name": "Import Detention",
+                "commodity": "GENERAL CARGO",
+                "free_time_start_event": "discharge",
+                "rkst_code": "PTLIS",
+                "container_details": [
+                  {
+                    "container_name": "20DRY",
+                    "free_time_grant_in_days": 7,
+                    "charge_per_diem_after_free_time": [
+                      {
+                        "start_day_of_charge": 8,
+                        "end_day_of_charge": 10,
+                        "charge_per_diem": 30,
+                        "currency_of_charge": "EUR"
+                      },
+                      {
+                        "start_day_of_charge": 11,
+                        "end_day_of_charge": null,
+                        "charge_per_diem": 50,
+                        "currency_of_charge": "EUR"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "penalty_fees": [
+            {
+              "display_name": "Amendment Fee",
+              "penalty_type": "AmendmentFee",
+              "fees": [
+                {
+                  "container_name": "20 DV",
+                  "charge_fee": 0,
+                  "currency": "USD"
+                }
+              ]
+            },
+            {
+              "display_name": "Cancellation Fee",
+              "penalty_type": "CancellationFee",
+              "fees": [
+                {
+                  "container_name": "20 DV",
+                  "charge_fee": 10,
+                  "currency": "USD"
+                }
+              ]
+            },
+            {
+              "display_name": "No Show Fee",
+              "penalty_type": "NoShowFee",
+              "fees": [
+                {
+                  "container_name": "20 DV",
+                  "charge_fee": 20,
+                  "currency": "USD"
+                }
+              ]
+            },
+            {
+              "display_name": "Compensation Fee",
+              "penalty_type": "CompensationFee",
+              "fees": [
+                {
+                  "container_name": "20 DV",
+                  "charge_fee": -10,
+                  "currency": "USD"
+                }
+              ]
+            }
+          ]
+        },
+        "schedules": [
+          {
+            "route_schedule_id": "1a374d6a-7c1c-42bf-bde5-fa2d70a456e8",
+            "departure_date": "2026-02-06T03:00:00Z",
+            "arrival_date": "2026-03-02T17:00:00Z",
+            "datetime_format": "UTC",
+            "transit_time": "25",
+            "carrier_scac": "MAEU",
+            "service_type": "Transshipment",
+            "schedule_status": "Invalid",
+            "schedule_details": {
+              "legs": [
+                {
+                  "from_location": {
+                    "id": 296,
+                    "name": "Haifa port Terminal",
+                    "code": "ILHFA",
+                    "unlo_code": null,
+                    "type": "TERMINAL",
+                    "city_name": "Haifa",
+                    "region_name": null,
+                    "country_code": "IL",
+                    "country_name": "Israel",
+                    "codification_type": null,
+                    "arrival_date": null,
+                    "arrival_time": null,
+                    "departure_date": "2026-02-06",
+                    "departure_time": "03:00:00",
+                    "timezone": "GMT"
+                  },
+                  "to_location": {
+                    "id": 201,
+                    "name": "Algeciras - ML Terminal",
+                    "code": "ESALG",
+                    "unlo_code": null,
+                    "type": "RAIL TERMINAL",
+                    "city_name": "Algeciras",
+                    "region_name": null,
+                    "country_code": "ES",
+                    "country_name": "Spain",
+                    "codification_type": null,
+                    "arrival_date": "2026-02-23",
+                    "arrival_time": "02:00:00",
+                    "departure_date": "2026-03-01",
+                    "departure_time": "02:00:00",
+                    "timezone": "GMT"
+                  },
+                  "transport": {
+                    "type_of_transport": "MVS",
+                    "transport_leg": "1/2",
+                    "reference_type": null,
+                    "reference": "9356139",
+                    "vehicle_name": "MAERSK NORFOLK",
+                    "CO2e": null,
+                    "voyage_reference": "606W",
+                    "service_name": null,
+                    "leg_transit_time": null,
+                    "carrier_name": null,
+                    "carrier_code": null,
+                    "carrier_source": null,
+                    "inventory_teus": null
+                  },
+                  "deadlines": [
+                    {
+                      "deadline_key": "CY",
+                      "name": "Commercial Cargo Cutoff",
+                      "type": null,
+                      "deadline_date": "2026-02-05 00:00:00"
+                    }
+                  ]
+                },
+                {
+                  "from_location": {
+                    "id": 201,
+                    "name": "Algeciras - ML Terminal",
+                    "code": "ESALG",
+                    "unlo_code": null,
+                    "type": "RAIL TERMINAL",
+                    "city_name": "Algeciras",
+                    "region_name": null,
+                    "country_code": "ES",
+                    "country_name": "Spain",
+                    "codification_type": null,
+                    "arrival_date": "2026-02-23",
+                    "arrival_time": "02:00:00",
+                    "departure_date": "2026-03-01",
+                    "departure_time": "02:00:00",
+                    "timezone": "GMT"
+                  },
+                  "to_location": {
+                    "id": 580,
+                    "name": "Terminal de Contentores de Alcantar",
+                    "code": "PTLIS",
+                    "unlo_code": null,
+                    "type": "DEPOT",
+                    "city_name": "Lisbon",
+                    "region_name": null,
+                    "country_code": "PT",
+                    "country_name": "Portugal",
+                    "codification_type": null,
+                    "arrival_date": "2026-03-02",
+                    "arrival_time": "17:00:00",
+                    "departure_date": null,
+                    "departure_time": null,
+                    "timezone": "GMT"
+                  },
+                  "transport": {
+                    "type_of_transport": "FEF",
+                    "transport_leg": "2/2",
+                    "reference_type": null,
+                    "reference": "9866005",
+                    "vehicle_name": "GREEN POLE",
+                    "CO2e": null,
+                    "voyage_reference": "609N",
+                    "service_name": null,
+                    "leg_transit_time": null,
+                    "carrier_name": null,
+                    "carrier_code": null,
+                    "carrier_source": null,
+                    "inventory_teus": null
+                  },
+                  "deadlines": [
+                    {
+                      "deadline_key": "CY",
+                      "name": "Commercial Cargo Cutoff",
+                      "type": null,
+                      "deadline_date": "2026-02-27 16:00:00"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "product_offer": {
+          "rate_uuid": "80459de5-c762-4b05-a5f3-2c2ec32f43a0",
+          "rate_status": "Valid",
+          "rate_source": "Default",
+          "service_type": "Transshipment",
+          "main_carrier_scac": "MAEU",
+          "main_carrier_id": 1365,
+          "main_carrier_uuid": "ed473900-d75d-4f97-b7cf-6c7d20867264",
+          "main_carrier_code": "MSK",
+          "main_carrier_name": "Maersk",
+          "main_carrier_logo": "https://cargofive-production-21.s3.eu-central-1.amazonaws.com/imgcarrier/maersk.png",
+          "main_source_type": "Api",
+          "main_product_type": null,
+          "main_product_name": "MAERSK SPOT",
+          "codification_type": null,
+          "origin_port_id": 296,
+          "origin_port_display_name": "Haifa",
+          "origin_port_unlocode": "ILHFA",
+          "origin_location_id": null,
+          "origin_location_display_name": null,
+          "origin_location_unlocode": null,
+          "destination_port_id": 580,
+          "destination_port_display_name": "Lisbon",
+          "destination_port_unlocode": "PTLIS",
+          "destination_location_id": null,
+          "destination_location_display_name": null,
+          "destination_location_unlocode": null,
+          "origin_service_type": "CY",
+          "destination_service_type": "CY",
+          "via_port": [],
+          "hazardous": false,
+          "kind_of_cargo_id": null,
+          "kind_of_cargo": null,
+          "commodity": null,
+          "service_name": null,
+          "rate_details": {
+            "contract_uuid": null,
+            "carrier_offer_id": "O_P02fmsdrd",
+            "reference": null,
+            "contract_status": null,
+            "file": null,
+            "future_date": false,
+            "named_accounts": [],
+            "additional_data": {
+              "link": "https://www.maersk.com/prices-and-quotes?utm_source=affiliate&utm_medium=referral&utm_campaign=cargofive&utm_id=cargofive",
+              "book_now_link": "https://www.maersk.com/prices-and-quotes?utm_source=affiliate&utm_medium=referral&utm_campaign=cargofive&utm_id=cargofive"
+            }
+          }
+        },
+        "product_price": {
+          "valid_from": null,
+          "valid_to": null,
+          "freight": {
+            "show_charges": true,
+            "charges": [
+              {
+                "show_charge": true,
+                "charge_uuid": "ac7f7ff4-f634-4adc-9940-2e712e522479",
+                "agent_id": null,
+                "agent_name": null,
+                "carrier_id": 1365,
+                "source": "Api",
+                "carrier_uuid": "ed473900-d75d-4f97-b7cf-6c7d20867264",
+                "carrier_name": "MAERSK SPOT",
+                "charge_code": "BAS",
+                "charge_name": "Ocean Freight",
+                "charge_hazardous": false,
+                "contract_charge_uuid": "4c7a4e32-4fe6-4bff-947e-a269178b96c9",
+                "contract_reference": null,
+                "surcharge_uuid": "a61b088f-669e-4b3b-ba5f-0337af6c706c",
+                "carrier_scac": null,
+                "rate_type_code": "freight",
+                "rate_basis": "Per Container",
+                "rate_basis_value": null,
+                "shipment_type": null,
+                "shipment_type_id": null,
+                "invoice_code": "Ocean Freight",
+                "payment_method": null,
+                "charge_remarks": null,
+                "quote_charge_remarks": null,
+                "inclusions": null,
+                "valid_from": null,
+                "valid_to": null,
+                "unit_price_currency": "USD",
+                "invoice_price_currency": "USD",
+                "commodity": null,
+                "service_name": null,
+                "tariffs": [
+                  {
+                    "quantity": 1,
+                    "container_iso": "20DV",
+                    "container_name": "20 DV",
+                    "unit_price": 302,
+                    "unit_price_usd": 302,
+                    "unit_profit": 0,
+                    "unit_profit_usd": 0,
+                    "profit_percentage": 0,
+                    "invoice_price": 302,
+                    "invoice_price_usd": 302,
+                    "total_price_per_qty": 302,
+                    "total_price_usd_per_qty": 302,
+                    "total_profit_per_qty": 0,
+                    "total_profit_usd_per_qty": 0,
+                    "total_invoice_price_per_qty": 302,
+                    "total_invoice_price_usd_per_qty": 302,
+                    "lcl_attributes": null
+                  }
+                ],
+                "charge_attributes": {
+                  "contract_rate_adjustment": 0,
+                  "charge_parent_type": null,
+                  "parent_uuid": null,
+                  "children_uuids": []
+                }
+              },
+              {
+                "show_charge": true,
+                "charge_uuid": "3528b6d0-dde2-437c-9405-ba3c04e09c96",
+                "agent_id": null,
+                "agent_name": null,
+                "carrier_id": 1365,
+                "source": "Api",
+                "carrier_uuid": "ed473900-d75d-4f97-b7cf-6c7d20867264",
+                "carrier_name": "MAERSK SPOT",
+                "charge_code": "NEF",
+                "charge_name": "Emission Fee",
+                "charge_hazardous": false,
+                "contract_charge_uuid": "6c5b3d7a-85e9-44a8-9db6-e2f78ac61d39",
+                "contract_reference": null,
+                "surcharge_uuid": "9bafb397-e060-41d8-827f-a40335871bbd",
+                "carrier_scac": null,
+                "rate_type_code": "freight_surcharge",
+                "rate_basis": "Per Container",
+                "rate_basis_value": null,
+                "shipment_type": null,
+                "shipment_type_id": null,
+                "invoice_code": "Emission Fee",
+                "payment_method": null,
+                "charge_remarks": null,
+                "quote_charge_remarks": null,
+                "inclusions": null,
+                "valid_from": null,
+                "valid_to": null,
+                "unit_price_currency": "USD",
+                "invoice_price_currency": "USD",
+                "commodity": null,
+                "service_name": null,
+                "tariffs": [
+                  {
+                    "quantity": 1,
+                    "container_iso": "20DV",
+                    "container_name": "20 DV",
+                    "unit_price": 28,
+                    "unit_price_usd": 28,
+                    "unit_profit": 0,
+                    "unit_profit_usd": 0,
+                    "profit_percentage": 0,
+                    "invoice_price": 28,
+                    "invoice_price_usd": 28,
+                    "total_price_per_qty": 28,
+                    "total_price_usd_per_qty": 28,
+                    "total_profit_per_qty": 0,
+                    "total_profit_usd_per_qty": 0,
+                    "total_invoice_price_per_qty": 28,
+                    "total_invoice_price_usd_per_qty": 28,
+                    "lcl_attributes": null
+                  }
+                ],
+                "charge_attributes": {
+                  "contract_rate_adjustment": 0,
+                  "charge_parent_type": null,
+                  "parent_uuid": null,
+                  "children_uuids": []
+                }
+              },
+              {
+                "show_charge": true,
+                "charge_uuid": "01944d43-ef76-4f1f-a8af-c32c927dbb53",
+                "agent_id": null,
+                "agent_name": null,
+                "carrier_id": 1365,
+                "source": "Api",
+                "carrier_uuid": "ed473900-d75d-4f97-b7cf-6c7d20867264",
+                "carrier_name": "MAERSK SPOT",
+                "charge_code": "ERS",
+                "charge_name": "Emergency Risk Surcharge",
+                "charge_hazardous": false,
+                "contract_charge_uuid": "5f063239-0d61-4281-9a11-c5714e87d375",
+                "contract_reference": null,
+                "surcharge_uuid": "05912d6d-b376-4fcb-bcf1-6dcaee8f3715",
+                "carrier_scac": null,
+                "rate_type_code": "freight_surcharge",
+                "rate_basis": "Per Container",
+                "rate_basis_value": null,
+                "shipment_type": null,
+                "shipment_type_id": null,
+                "invoice_code": "Emergency Risk Surcharge",
+                "payment_method": null,
+                "charge_remarks": null,
+                "quote_charge_remarks": null,
+                "inclusions": null,
+                "valid_from": null,
+                "valid_to": null,
+                "unit_price_currency": "USD",
+                "invoice_price_currency": "USD",
+                "commodity": null,
+                "service_name": null,
+                "tariffs": [
+                  {
+                    "quantity": 1,
+                    "container_iso": "20DV",
+                    "container_name": "20 DV",
+                    "unit_price": 9,
+                    "unit_price_usd": 9,
+                    "unit_profit": 0,
+                    "unit_profit_usd": 0,
+                    "profit_percentage": 0,
+                    "invoice_price": 9,
+                    "invoice_price_usd": 9,
+                    "total_price_per_qty": 9,
+                    "total_price_usd_per_qty": 9,
+                    "total_profit_per_qty": 0,
+                    "total_profit_usd_per_qty": 0,
+                    "total_invoice_price_per_qty": 9,
+                    "total_invoice_price_usd_per_qty": 9,
+                    "lcl_attributes": null
+                  }
+                ],
+                "charge_attributes": {
+                  "contract_rate_adjustment": 0,
+                  "charge_parent_type": null,
+                  "parent_uuid": null,
+                  "children_uuids": []
+                }
+              }
+            ],
+            "totals": {
+              "currency": "USD",
+              "per_container": {
+                "containers": {
+                  "20DV": {
+                    "total_unit_price_usd": 339,
+                    "total_unit_price": 339,
+                    "total_unit_profit": 0,
+                    "total_unit_profit_usd": 0,
+                    "total_unit_invoice_usd": 339,
+                    "total_unit_invoice": 339,
+                    "total_per_qty_price_usd": 339,
+                    "total_per_qty_price": 339,
+                    "total_per_qty_profit_usd": 0,
+                    "total_per_qty_profit": 0,
+                    "total_per_qty_invoice_usd": 339,
+                    "total_per_qty_invoice": 339,
+                    "profit_percentage": 0
+                  }
+                }
+              },
+              "per_container_totals": {
+                "containers": {
+                  "20DV": {
+                    "total_unit_price_usd": 339,
+                    "total_unit_price": 339,
+                    "total_unit_profit": 0,
+                    "total_unit_profit_usd": 0,
+                    "total_unit_invoice_usd": 339,
+                    "total_unit_invoice": 339,
+                    "total_per_qty_price_usd": 339,
+                    "total_per_qty_price": 339,
+                    "total_per_qty_profit_usd": 0,
+                    "total_per_qty_profit": 0,
+                    "total_per_qty_invoice_usd": 339,
+                    "total_per_qty_invoice": 339,
+                    "profit_percentage": 0
+                  }
+                }
+              },
+              "global_totals": {
+                "total_unit_price_usd": 0,
+                "total_unit_price": 0,
+                "total_unit_profit": 0,
+                "total_unit_profit_usd": 0,
+                "total_unit_invoice_usd": 0,
+                "total_unit_invoice": 0,
+                "total_per_qty_price_usd": 0,
+                "total_per_qty_price": 0,
+                "total_per_qty_profit_usd": 0,
+                "total_per_qty_profit": 0,
+                "total_per_qty_invoice_usd": 0,
+                "total_per_qty_invoice": 0,
+                "profit_percentage": 0
+              },
+              "offer_totals": {
+                "total_unit_price_usd": 0,
+                "total_unit_price": 0,
+                "total_unit_profit": 0,
+                "total_unit_profit_usd": 0,
+                "total_unit_invoice_usd": 0,
+                "total_unit_invoice": 0,
+                "total_per_qty_price_usd": 0,
+                "total_per_qty_price": 0,
+                "total_per_qty_profit_usd": 0,
+                "total_per_qty_profit": 0,
+                "total_per_qty_invoice_usd": 0,
+                "total_per_qty_invoice": 0,
+                "profit_percentage": 0
+              }
+            },
+            "remarks": null,
+            "inclusions": null
+          },
+          "origin": {
+            "show_charges": true,
+            "charges": [
+              {
+                "show_charge": true,
+                "charge_uuid": "5d100514-a31e-4e39-ad6b-7f8025398afa",
+                "agent_id": null,
+                "agent_name": null,
+                "carrier_id": 1365,
+                "source": "Api",
+                "carrier_uuid": "ed473900-d75d-4f97-b7cf-6c7d20867264",
+                "carrier_name": "MAERSK SPOT",
+                "charge_code": "OTHC",
+                "charge_name": "TERMINAL HANDLING CHARGE ORIGIN",
+                "charge_hazardous": false,
+                "contract_charge_uuid": "a21b207f-73b5-4c7d-99a3-56735f6940ab",
+                "contract_reference": null,
+                "surcharge_uuid": "e30d75f8-ec57-4234-80b0-d131341d5cd4",
+                "carrier_scac": null,
+                "rate_type_code": "origin",
+                "rate_basis": "Per Container",
+                "rate_basis_value": null,
+                "shipment_type": null,
+                "shipment_type_id": null,
+                "invoice_code": "TERMINAL HANDLING CHARGE ORIGIN",
+                "payment_method": null,
+                "charge_remarks": null,
+                "quote_charge_remarks": null,
+                "inclusions": null,
+                "valid_from": null,
+                "valid_to": null,
+                "unit_price_currency": "USD",
+                "invoice_price_currency": "USD",
+                "commodity": null,
+                "service_name": null,
+                "tariffs": [
+                  {
+                    "quantity": 1,
+                    "container_iso": "20DV",
+                    "container_name": "20 DV",
+                    "unit_price": 310,
+                    "unit_price_usd": 310,
+                    "unit_profit": 0,
+                    "unit_profit_usd": 0,
+                    "profit_percentage": 0,
+                    "invoice_price": 310,
+                    "invoice_price_usd": 310,
+                    "total_price_per_qty": 310,
+                    "total_price_usd_per_qty": 310,
+                    "total_profit_per_qty": 0,
+                    "total_profit_usd_per_qty": 0,
+                    "total_invoice_price_per_qty": 310,
+                    "total_invoice_price_usd_per_qty": 310,
+                    "lcl_attributes": null
+                  }
+                ],
+                "charge_attributes": {
+                  "contract_rate_adjustment": 0,
+                  "charge_parent_type": null,
+                  "parent_uuid": null,
+                  "children_uuids": []
+                }
+              },
+              {
+                "show_charge": true,
+                "charge_uuid": "bf6fe624-fcbb-4115-80f4-d34d593408be",
+                "agent_id": null,
+                "agent_name": null,
+                "carrier_id": 1365,
+                "source": "Api",
+                "carrier_uuid": "ed473900-d75d-4f97-b7cf-6c7d20867264",
+                "carrier_name": "MAERSK SPOT",
+                "charge_code": "ODF",
+                "charge_name": "Documentation Fee Origin",
+                "charge_hazardous": false,
+                "contract_charge_uuid": "bc767cf4-995c-432e-be6d-5773b80fed56",
+                "contract_reference": null,
+                "surcharge_uuid": "660f4705-6b44-4ece-8fd7-3345865a6bab",
+                "carrier_scac": null,
+                "rate_type_code": "origin",
+                "rate_basis": "Per Bill of Lading",
+                "rate_basis_value": null,
+                "shipment_type": null,
+                "shipment_type_id": null,
+                "invoice_code": "Documentation Fee Origin",
+                "payment_method": null,
+                "charge_remarks": null,
+                "quote_charge_remarks": null,
+                "inclusions": null,
+                "valid_from": null,
+                "valid_to": null,
+                "unit_price_currency": "USD",
+                "invoice_price_currency": "USD",
+                "commodity": null,
+                "service_name": null,
+                "tariffs": [
+                  {
+                    "quantity": 1,
+                    "container_iso": "20DV",
+                    "container_name": "20 DV",
+                    "unit_price": 65,
+                    "unit_price_usd": 65,
+                    "unit_profit": 0,
+                    "unit_profit_usd": 0,
+                    "profit_percentage": 0,
+                    "invoice_price": 65,
+                    "invoice_price_usd": 65,
+                    "total_price_per_qty": 65,
+                    "total_price_usd_per_qty": 65,
+                    "total_profit_per_qty": 0,
+                    "total_profit_usd_per_qty": 0,
+                    "total_invoice_price_per_qty": 65,
+                    "total_invoice_price_usd_per_qty": 65,
+                    "lcl_attributes": null
+                  }
+                ],
+                "charge_attributes": {
+                  "contract_rate_adjustment": 0,
+                  "charge_parent_type": null,
+                  "parent_uuid": null,
+                  "children_uuids": []
+                }
+              }
+            ],
+            "totals": {
+              "currency": "USD",
+              "per_container": {
+                "containers": {
+                  "20DV": {
+                    "total_unit_price_usd": 310,
+                    "total_unit_price": 310,
+                    "total_unit_profit": 0,
+                    "total_unit_profit_usd": 0,
+                    "total_unit_invoice_usd": 310,
+                    "total_unit_invoice": 310,
+                    "total_per_qty_price_usd": 310,
+                    "total_per_qty_price": 310,
+                    "total_per_qty_profit_usd": 0,
+                    "total_per_qty_profit": 0,
+                    "total_per_qty_invoice_usd": 310,
+                    "total_per_qty_invoice": 310,
+                    "profit_percentage": 0
+                  }
+                }
+              },
+              "per_container_totals": {
+                "containers": {
+                  "20DV": {
+                    "total_unit_price_usd": 375,
+                    "total_unit_price": 375,
+                    "total_unit_profit": 0,
+                    "total_unit_profit_usd": 0,
+                    "total_unit_invoice_usd": 375,
+                    "total_unit_invoice": 375,
+                    "total_per_qty_price_usd": 375,
+                    "total_per_qty_price": 375,
+                    "total_per_qty_profit_usd": 0,
+                    "total_per_qty_profit": 0,
+                    "total_per_qty_invoice_usd": 375,
+                    "total_per_qty_invoice": 375,
+                    "profit_percentage": 0
+                  }
+                }
+              },
+              "global_totals": {
+                "total_unit_price_usd": 0,
+                "total_unit_price": 0,
+                "total_unit_profit": 0,
+                "total_unit_profit_usd": 0,
+                "total_unit_invoice_usd": 0,
+                "total_unit_invoice": 0,
+                "total_per_qty_price_usd": 0,
+                "total_per_qty_price": 0,
+                "total_per_qty_profit_usd": 0,
+                "total_per_qty_profit": 0,
+                "total_per_qty_invoice_usd": 0,
+                "total_per_qty_invoice": 0,
+                "profit_percentage": 0
+              },
+              "offer_totals": {
+                "total_unit_price_usd": 0,
+                "total_unit_price": 0,
+                "total_unit_profit": 0,
+                "total_unit_profit_usd": 0,
+                "total_unit_invoice_usd": 0,
+                "total_unit_invoice": 0,
+                "total_per_qty_price_usd": 0,
+                "total_per_qty_price": 0,
+                "total_per_qty_profit_usd": 0,
+                "total_per_qty_profit": 0,
+                "total_per_qty_invoice_usd": 0,
+                "total_per_qty_invoice": 0,
+                "profit_percentage": 0
+              }
+            },
+            "remarks": null,
+            "inland_remarks": null
+          },
+          "destination": {
+            "show_charges": true,
+            "charges": [
+              {
+                "show_charge": true,
+                "charge_uuid": "c8051588-c5c9-4931-855e-44ad56e57c30",
+                "agent_id": null,
+                "agent_name": null,
+                "carrier_id": 1365,
+                "source": "Api",
+                "carrier_uuid": "ed473900-d75d-4f97-b7cf-6c7d20867264",
+                "carrier_name": "MAERSK SPOT",
+                "charge_code": "CPE",
+                "charge_name": "Container Protect Essential",
+                "charge_hazardous": false,
+                "contract_charge_uuid": "64c60ffd-9a46-4658-9a95-b9b848c7ec5c",
+                "contract_reference": null,
+                "surcharge_uuid": "347fb562-1e3c-4213-b644-f7628fb22689",
+                "carrier_scac": null,
+                "rate_type_code": "destination",
+                "rate_basis": "Per Container",
+                "rate_basis_value": null,
+                "shipment_type": null,
+                "shipment_type_id": null,
+                "invoice_code": "Container Protect Essential",
+                "payment_method": null,
+                "charge_remarks": null,
+                "quote_charge_remarks": null,
+                "inclusions": null,
+                "valid_from": null,
+                "valid_to": null,
+                "unit_price_currency": "EUR",
+                "invoice_price_currency": "EUR",
+                "commodity": null,
+                "service_name": null,
+                "tariffs": [
+                  {
+                    "quantity": 1,
+                    "container_iso": "20DV",
+                    "container_name": "20 DV",
+                    "unit_price": 19,
+                    "unit_price_usd": 22.17,
+                    "unit_profit": 0,
+                    "unit_profit_usd": 0,
+                    "profit_percentage": 0,
+                    "invoice_price": 19,
+                    "invoice_price_usd": 22.17,
+                    "total_price_per_qty": 19,
+                    "total_price_usd_per_qty": 22.17,
+                    "total_profit_per_qty": 0,
+                    "total_profit_usd_per_qty": 0,
+                    "total_invoice_price_per_qty": 19,
+                    "total_invoice_price_usd_per_qty": 22.17,
+                    "lcl_attributes": null
+                  }
+                ],
+                "charge_attributes": {
+                  "contract_rate_adjustment": 0,
+                  "charge_parent_type": null,
+                  "parent_uuid": null,
+                  "children_uuids": []
+                }
+              },
+              {
+                "show_charge": true,
+                "charge_uuid": "47af4e32-0955-4fda-9d41-cc784564c9c1",
+                "agent_id": null,
+                "agent_name": null,
+                "carrier_id": 1365,
+                "source": "Api",
+                "carrier_uuid": "ed473900-d75d-4f97-b7cf-6c7d20867264",
+                "carrier_name": "MAERSK SPOT",
+                "charge_code": "DHC",
+                "charge_name": "Terminal Handling Service Destination",
+                "charge_hazardous": false,
+                "contract_charge_uuid": "07e27877-7e9a-4d6e-964a-b6a54b0404de",
+                "contract_reference": null,
+                "surcharge_uuid": "3d8d391b-fd6f-41d2-b352-aaca980a51e5",
+                "carrier_scac": null,
+                "rate_type_code": "destination",
+                "rate_basis": "Per Container",
+                "rate_basis_value": null,
+                "shipment_type": null,
+                "shipment_type_id": null,
+                "invoice_code": "Terminal Handling Service Destination",
+                "payment_method": null,
+                "charge_remarks": null,
+                "quote_charge_remarks": null,
+                "inclusions": null,
+                "valid_from": null,
+                "valid_to": null,
+                "unit_price_currency": "EUR",
+                "invoice_price_currency": "EUR",
+                "commodity": null,
+                "service_name": null,
+                "tariffs": [
+                  {
+                    "quantity": 1,
+                    "container_iso": "20DV",
+                    "container_name": "20 DV",
+                    "unit_price": 241,
+                    "unit_price_usd": 281.23,
+                    "unit_profit": 0,
+                    "unit_profit_usd": 0,
+                    "profit_percentage": 0,
+                    "invoice_price": 241,
+                    "invoice_price_usd": 281.23,
+                    "total_price_per_qty": 241,
+                    "total_price_usd_per_qty": 281.23,
+                    "total_profit_per_qty": 0,
+                    "total_profit_usd_per_qty": 0,
+                    "total_invoice_price_per_qty": 241,
+                    "total_invoice_price_usd_per_qty": 281.23,
+                    "lcl_attributes": null
+                  }
+                ],
+                "charge_attributes": {
+                  "contract_rate_adjustment": 0,
+                  "charge_parent_type": null,
+                  "parent_uuid": null,
+                  "children_uuids": []
+                }
+              },
+              {
+                "show_charge": true,
+                "charge_uuid": "01b09755-a1bf-472c-9a32-6d9b0ff706d1",
+                "agent_id": null,
+                "agent_name": null,
+                "carrier_id": 1365,
+                "source": "Api",
+                "carrier_uuid": "ed473900-d75d-4f97-b7cf-6c7d20867264",
+                "carrier_name": "MAERSK SPOT",
+                "charge_code": "DDF",
+                "charge_name": "Documentation Fee Destination",
+                "charge_hazardous": false,
+                "contract_charge_uuid": "a196343d-a422-4456-be5d-48d799fae367",
+                "contract_reference": null,
+                "surcharge_uuid": "235e213b-40e1-4c02-a836-85bdd62b1112",
+                "carrier_scac": null,
+                "rate_type_code": "destination",
+                "rate_basis": "Per Bill of Lading",
+                "rate_basis_value": null,
+                "shipment_type": null,
+                "shipment_type_id": null,
+                "invoice_code": "Documentation Fee Destination",
+                "payment_method": null,
+                "charge_remarks": null,
+                "quote_charge_remarks": null,
+                "inclusions": null,
+                "valid_from": null,
+                "valid_to": null,
+                "unit_price_currency": "EUR",
+                "invoice_price_currency": "EUR",
+                "commodity": null,
+                "service_name": null,
+                "tariffs": [
+                  {
+                    "quantity": 1,
+                    "container_iso": "20DV",
+                    "container_name": "20 DV",
+                    "unit_price": 60,
+                    "unit_price_usd": 70.02,
+                    "unit_profit": 0,
+                    "unit_profit_usd": 0,
+                    "profit_percentage": 0,
+                    "invoice_price": 60,
+                    "invoice_price_usd": 70.02,
+                    "total_price_per_qty": 60,
+                    "total_price_usd_per_qty": 70.02,
+                    "total_profit_per_qty": 0,
+                    "total_profit_usd_per_qty": 0,
+                    "total_invoice_price_per_qty": 60,
+                    "total_invoice_price_usd_per_qty": 70.02,
+                    "lcl_attributes": null
+                  }
+                ],
+                "charge_attributes": {
+                  "contract_rate_adjustment": 0,
+                  "charge_parent_type": null,
+                  "parent_uuid": null,
+                  "children_uuids": []
+                }
+              }
+            ],
+            "totals": {
+              "currency": "EUR",
+              "per_container": {
+                "containers": {
+                  "20DV": {
+                    "total_unit_price_usd": 303.41,
+                    "total_unit_price": 260,
+                    "total_unit_profit": 0,
+                    "total_unit_profit_usd": 0,
+                    "total_unit_invoice_usd": 303.41,
+                    "total_unit_invoice": 260,
+                    "total_per_qty_price_usd": 303.41,
+                    "total_per_qty_price": 260,
+                    "total_per_qty_profit_usd": 0,
+                    "total_per_qty_profit": 0,
+                    "total_per_qty_invoice_usd": 303.41,
+                    "total_per_qty_invoice": 260,
+                    "profit_percentage": 0
+                  }
+                }
+              },
+              "per_container_totals": {
+                "containers": {
+                  "20DV": {
+                    "total_unit_price_usd": 373.43,
+                    "total_unit_price": 320,
+                    "total_unit_profit": 0,
+                    "total_unit_profit_usd": 0,
+                    "total_unit_invoice_usd": 373.43,
+                    "total_unit_invoice": 320,
+                    "total_per_qty_price_usd": 373.43,
+                    "total_per_qty_price": 320,
+                    "total_per_qty_profit_usd": 0,
+                    "total_per_qty_profit": 0,
+                    "total_per_qty_invoice_usd": 373.43,
+                    "total_per_qty_invoice": 320,
+                    "profit_percentage": 0
+                  }
+                }
+              },
+              "global_totals": {
+                "total_unit_price_usd": 0,
+                "total_unit_price": 0,
+                "total_unit_profit": 0,
+                "total_unit_profit_usd": 0,
+                "total_unit_invoice_usd": 0,
+                "total_unit_invoice": 0,
+                "total_per_qty_price_usd": 0,
+                "total_per_qty_price": 0,
+                "total_per_qty_profit_usd": 0,
+                "total_per_qty_profit": 0,
+                "total_per_qty_invoice_usd": 0,
+                "total_per_qty_invoice": 0,
+                "profit_percentage": 0
+              },
+              "offer_totals": {
+                "total_unit_price_usd": 0,
+                "total_unit_price": 0,
+                "total_unit_profit": 0,
+                "total_unit_profit_usd": 0,
+                "total_unit_invoice_usd": 0,
+                "total_unit_invoice": 0,
+                "total_per_qty_price_usd": 0,
+                "total_per_qty_price": 0,
+                "total_per_qty_profit_usd": 0,
+                "total_per_qty_profit": 0,
+                "total_per_qty_invoice_usd": 0,
+                "total_per_qty_invoice": 0,
+                "profit_percentage": 0
+              }
+            },
+            "remarks": null,
+            "inland_remarks": null
+          },
+          "totals": {
+            "currency": "USD",
+            "per_container": {
+              "containers": {
+                "20DV": {
+                  "total_unit_price_usd": 952.42,
+                  "total_unit_price": 952.42,
+                  "total_unit_profit": 0,
+                  "total_unit_profit_usd": 0,
+                  "total_unit_invoice_usd": 952.42,
+                  "total_unit_invoice": 952.42,
+                  "total_per_qty_price_usd": 952.42,
+                  "total_per_qty_price": 952.42,
+                  "total_per_qty_profit_usd": 0,
+                  "total_per_qty_profit": 0,
+                  "total_per_qty_invoice_usd": 952.42,
+                  "total_per_qty_invoice": 952.42,
+                  "profit_percentage": 0
+                }
+              }
+            },
+            "per_container_totals": {
+              "containers": {
+                "20DV": {
+                  "total_unit_price_usd": 1087.43,
+                  "total_unit_price": 1087.43,
+                  "total_unit_profit": 0,
+                  "total_unit_profit_usd": 0,
+                  "total_unit_invoice_usd": 1087.43,
+                  "total_unit_invoice": 1087.43,
+                  "total_per_qty_price_usd": 1087.43,
+                  "total_per_qty_price": 1087.43,
+                  "total_per_qty_profit_usd": 0,
+                  "total_per_qty_profit": 0,
+                  "total_per_qty_invoice_usd": 1087.43,
+                  "total_per_qty_invoice": 1087.43,
+                  "profit_percentage": 0
+                }
+              }
+            },
+            "global_totals": {
+              "total_unit_price_usd": 0,
+              "total_unit_price": 0,
+              "total_unit_profit": 0,
+              "total_unit_profit_usd": 0,
+              "total_unit_invoice_usd": 0,
+              "total_unit_invoice": 0,
+              "total_per_qty_price_usd": 0,
+              "total_per_qty_price": 0,
+              "total_per_qty_profit_usd": 0,
+              "total_per_qty_profit": 0,
+              "total_per_qty_invoice_usd": 0,
+              "total_per_qty_invoice": 0,
+              "profit_percentage": 0
+            },
+            "offer_totals": {
+              "total_unit_price_usd": 0,
+              "total_unit_price": 0,
+              "total_unit_profit": 0,
+              "total_unit_profit_usd": 0,
+              "total_unit_invoice_usd": 0,
+              "total_unit_invoice": 0,
+              "total_per_qty_price_usd": 0,
+              "total_per_qty_price": 0,
+              "total_per_qty_profit_usd": 0,
+              "total_per_qty_profit": 0,
+              "total_per_qty_invoice_usd": 0,
+              "total_per_qty_invoice": 0,
+              "profit_percentage": 0
+            }
+          },
+          "dnd_conditions": {
+            "link": null,
+            "conditions": [
+              {
+                "direction": "Import",
+                "charge_type": "Demurrage",
+                "display_name": "Import Demurrage",
+                "commodity": "GENERAL CARGO",
+                "free_time_start_event": "discharge",
+                "rkst_code": "PTLIS",
+                "container_details": [
+                  {
+                    "container_name": "20DRY",
+                    "free_time_grant_in_days": 7,
+                    "charge_per_diem_after_free_time": [
+                      {
+                        "start_day_of_charge": 8,
+                        "end_day_of_charge": 15,
+                        "charge_per_diem": 6,
+                        "currency_of_charge": "EUR"
+                      },
+                      {
+                        "start_day_of_charge": 16,
+                        "end_day_of_charge": null,
+                        "charge_per_diem": 12,
+                        "currency_of_charge": "EUR"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "direction": "Import",
+                "charge_type": "Detention",
+                "display_name": "Import Detention",
+                "commodity": "GENERAL CARGO",
+                "free_time_start_event": "discharge",
+                "rkst_code": "PTLIS",
+                "container_details": [
+                  {
+                    "container_name": "20DRY",
+                    "free_time_grant_in_days": 7,
+                    "charge_per_diem_after_free_time": [
+                      {
+                        "start_day_of_charge": 8,
+                        "end_day_of_charge": 10,
+                        "charge_per_diem": 30,
+                        "currency_of_charge": "EUR"
+                      },
+                      {
+                        "start_day_of_charge": 11,
+                        "end_day_of_charge": null,
+                        "charge_per_diem": 50,
+                        "currency_of_charge": "EUR"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "penalty_fees": [
+            {
+              "display_name": "Amendment Fee",
+              "penalty_type": "AmendmentFee",
+              "fees": [
+                {
+                  "container_name": "20 DV",
+                  "charge_fee": 0,
+                  "currency": "USD"
+                }
+              ]
+            },
+            {
+              "display_name": "Cancellation Fee",
+              "penalty_type": "CancellationFee",
+              "fees": [
+                {
+                  "container_name": "20 DV",
+                  "charge_fee": 10,
+                  "currency": "USD"
+                }
+              ]
+            },
+            {
+              "display_name": "No Show Fee",
+              "penalty_type": "NoShowFee",
+              "fees": [
+                {
+                  "container_name": "20 DV",
+                  "charge_fee": 20,
+                  "currency": "USD"
+                }
+              ]
+            },
+            {
+              "display_name": "Compensation Fee",
+              "penalty_type": "CompensationFee",
+              "fees": [
+                {
+                  "container_name": "20 DV",
+                  "charge_fee": -10,
+                  "currency": "USD"
+                }
+              ]
+            }
+          ]
+        },
+        "schedules": [
+          {
+            "route_schedule_id": "f0b1ba40-54a6-4dce-afa1-6dc1c527ac7e",
+            "departure_date": "2026-02-06T03:00:00Z",
+            "arrival_date": "2026-03-10T07:00:00Z",
+            "datetime_format": "UTC",
+            "transit_time": "32",
+            "carrier_scac": "MAEU",
+            "service_type": "Transshipment",
+            "schedule_status": "Invalid",
+            "schedule_details": {
+              "legs": [
+                {
+                  "from_location": {
+                    "id": 296,
+                    "name": "Haifa port Terminal",
+                    "code": "ILHFA",
+                    "unlo_code": null,
+                    "type": "TERMINAL",
+                    "city_name": "Haifa",
+                    "region_name": null,
+                    "country_code": "IL",
+                    "country_name": "Israel",
+                    "codification_type": null,
+                    "arrival_date": null,
+                    "arrival_time": null,
+                    "departure_date": "2026-02-06",
+                    "departure_time": "03:00:00",
+                    "timezone": "GMT"
+                  },
+                  "to_location": {
+                    "id": 466,
+                    "name": "Tanger Med 2",
+                    "code": "MAPTM",
+                    "unlo_code": null,
+                    "type": "DEPOT",
+                    "city_name": "Port Tangier Mediterranee",
+                    "region_name": null,
+                    "country_code": "MA",
+                    "country_name": "Morocco",
+                    "codification_type": null,
+                    "arrival_date": "2026-02-24",
+                    "arrival_time": "07:00:00",
+                    "departure_date": "2026-03-03",
+                    "departure_time": "01:00:00",
+                    "timezone": "GMT"
+                  },
+                  "transport": {
+                    "type_of_transport": "MVS",
+                    "transport_leg": "1/3",
+                    "reference_type": null,
+                    "reference": "9356139",
+                    "vehicle_name": "MAERSK NORFOLK",
+                    "CO2e": null,
+                    "voyage_reference": "606W",
+                    "service_name": null,
+                    "leg_transit_time": null,
+                    "carrier_name": null,
+                    "carrier_code": null,
+                    "carrier_source": null,
+                    "inventory_teus": null
+                  },
+                  "deadlines": [
+                    {
+                      "deadline_key": "CY",
+                      "name": "Commercial Cargo Cutoff",
+                      "type": null,
+                      "deadline_date": "2026-02-05 00:00:00"
+                    }
+                  ]
+                },
+                {
+                  "from_location": {
+                    "id": 466,
+                    "name": "Tanger Med 2",
+                    "code": "MAPTM",
+                    "unlo_code": null,
+                    "type": "DEPOT",
+                    "city_name": "Port Tangier Mediterranee",
+                    "region_name": null,
+                    "country_code": "MA",
+                    "country_name": "Morocco",
+                    "codification_type": null,
+                    "arrival_date": "2026-02-24",
+                    "arrival_time": "07:00:00",
+                    "departure_date": "2026-03-03",
+                    "departure_time": "01:00:00",
+                    "timezone": "GMT"
+                  },
+                  "to_location": {
+                    "id": 201,
+                    "name": "Algeciras - ML Terminal",
+                    "code": "ESALG",
+                    "unlo_code": null,
+                    "type": "RAIL TERMINAL",
+                    "city_name": "Algeciras",
+                    "region_name": null,
+                    "country_code": "ES",
+                    "country_name": "Spain",
+                    "codification_type": null,
+                    "arrival_date": "2026-03-03",
+                    "arrival_time": "20:00:00",
+                    "departure_date": "2026-03-07",
+                    "departure_time": "14:00:00",
+                    "timezone": "GMT"
+                  },
+                  "transport": {
+                    "type_of_transport": "MVS",
+                    "transport_leg": "2/3",
+                    "reference_type": null,
+                    "reference": "9303766",
+                    "vehicle_name": "BSG BONAIRE",
+                    "CO2e": null,
+                    "voyage_reference": "610N",
+                    "service_name": null,
+                    "leg_transit_time": null,
+                    "carrier_name": null,
+                    "carrier_code": null,
+                    "carrier_source": null,
+                    "inventory_teus": null
+                  },
+                  "deadlines": [
+                    {
+                      "deadline_key": "CY",
+                      "name": "Commercial Cargo Cutoff",
+                      "type": null,
+                      "deadline_date": "2026-02-27 17:00:00"
+                    }
+                  ]
+                },
+                {
+                  "from_location": {
+                    "id": 201,
+                    "name": "Algeciras - ML Terminal",
+                    "code": "ESALG",
+                    "unlo_code": null,
+                    "type": "RAIL TERMINAL",
+                    "city_name": "Algeciras",
+                    "region_name": null,
+                    "country_code": "ES",
+                    "country_name": "Spain",
+                    "codification_type": null,
+                    "arrival_date": "2026-03-03",
+                    "arrival_time": "20:00:00",
+                    "departure_date": "2026-03-07",
+                    "departure_time": "14:00:00",
+                    "timezone": "GMT"
+                  },
+                  "to_location": {
+                    "id": 580,
+                    "name": "Terminal Contenedores Santa Apoloni",
+                    "code": "PTLIS",
+                    "unlo_code": null,
+                    "type": "TERMINAL",
+                    "city_name": "Lisbon",
+                    "region_name": null,
+                    "country_code": "PT",
+                    "country_name": "Portugal",
+                    "codification_type": null,
+                    "arrival_date": "2026-03-10",
+                    "arrival_time": "07:00:00",
+                    "departure_date": null,
+                    "departure_time": null,
+                    "timezone": "GMT"
+                  },
+                  "transport": {
+                    "type_of_transport": "VSM",
+                    "transport_leg": "3/3",
+                    "reference_type": null,
+                    "reference": "9515591",
+                    "vehicle_name": "RAQUEL S",
+                    "CO2e": null,
+                    "voyage_reference": "610S",
+                    "service_name": null,
+                    "leg_transit_time": null,
+                    "carrier_name": null,
+                    "carrier_code": null,
+                    "carrier_source": null,
+                    "inventory_teus": null
+                  },
+                  "deadlines": [
+                    {
+                      "deadline_key": "CY",
+                      "name": "Commercial Cargo Cutoff",
+                      "type": null,
+                      "deadline_date": "2026-03-05 09:00:00"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "offer_remarks": null,
+    "general_remarks": [],
+    "use_profit": true
+  }
+}
