@@ -1,3 +1,6 @@
+// React import
+import React from 'react';
+
 // Generic imports
 import _ from 'lodash';
 
