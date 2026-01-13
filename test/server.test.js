@@ -13,34 +13,6 @@ function uuidv4() { return '' + id++ };
 // Increase jest timeout to 10 seconds
 jest.setTimeout(120000);
 
-// Mock CargoFive API responses
-const CARGOFIVE_CONTRACTS_RESPONSE = {
-    data: [
-        {
-            id: 1,
-            supplier: { name: 'Test Supplier', code: 'TEST' },
-            validFrom: '2024-01-01',
-            validUntil: '2024-12-31',
-            type: 'Contract'
-        }
-    ]
-};
-
-const CARGOFIVE_CHARGES_RESPONSE = {
-    data: [
-        {
-            contract_id: 1,
-            surcharge: {
-                name: 'Ocean Freight',
-                application: 'Freight',
-                amount: 1000,
-                currency: 'USD',
-                unit: 'CTR'
-            }
-        }
-    ]
-};
-
 const mockServer = setupServer(
     http.get('http://localhost:9999/api/v1/public/rates', ({ request }) => {
         if (request.headers.get('x-api-key') !== 'TEST_API_KEY') {

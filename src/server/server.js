@@ -50,8 +50,12 @@ function Server({ apiKey, serverUri = PRODUCTION_URI, uuidv4 = _uuidv4, now = _n
                     include_imo_charges: false,
                     cargo_details: products.map(p => productToCargoDetails({ product: p })).join(','),
                     departure_date: new Date(dateBegin).toISOString().split('T')[0],
-
                 }
+
+                if (verbose) {
+                    console.log('[CargoFive] Rates request:', `${baseUrl}/v1/public/rates?${new URLSearchParams(params).toString()}`);
+                }
+
                 // Try to search rates by origin/destination
                 const { data: ratesResponse } = await axios.get(
                     `${baseUrl}/v1/public/rates?${new URLSearchParams(params).toString()}`,
@@ -182,8 +186,8 @@ function convertCargofiveRateToMonadaRate({ rate, sourcePort, destinationPort, p
                 cargofiveRate: rate,
             },
             product: {
-                id: productId,
                 ...monadaProduct,
+                id: productId,
             },
             offer: {
                 validFrom: productPrice.valid_from || null,
