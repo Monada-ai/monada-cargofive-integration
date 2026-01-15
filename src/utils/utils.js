@@ -50,4 +50,8 @@ function up(s) {
     return String(s ?? '').toUpperCase();
 }
 
-export { basisIsPerBL, productFromIso, productToIso };
+module.exports = {
+    basisIsPerBL,
+    productFromIso,
+    productToIso
+};
