@@ -1117,14 +1117,14 @@
       }
     },
     "product": {
-      "id": "aaf929f3-ec28-4ef6-ab6c-ef0b941a5f57",
+      "id": "100",
       "type": "20' Dry",
       "dangerous": false,
       "quantity": 1
     },
     "offer": {
-      "validFrom": null,
-      "validUntil": null,
+      "validFrom": "2026-01-01",
+      "validUntil": "2026-01-31",
       "transitTime": "21",
       "transitDates": [
         {
@@ -2381,14 +2381,14 @@
       }
     },
     "product": {
-      "id": "aaf929f3-ec28-4ef6-ab6c-ef0b941a5f57",
+      "id": "116",
       "type": "20' Dry",
       "dangerous": false,
       "quantity": 1
     },
     "offer": {
-      "validFrom": null,
-      "validUntil": null,
+      "validFrom": "2026-01-01",
+      "validUntil": "2026-01-31",
       "transitTime": "28",
       "transitDates": [
         {
@@ -3645,14 +3645,14 @@
       }
     },
     "product": {
-      "id": "aaf929f3-ec28-4ef6-ab6c-ef0b941a5f57",
+      "id": "132",
       "type": "20' Dry",
       "dangerous": false,
       "quantity": 1
     },
     "offer": {
-      "validFrom": null,
-      "validUntil": null,
+      "validFrom": "2026-01-01",
+      "validUntil": "2026-01-31",
       "transitTime": "25",
       "transitDates": [
         {
@@ -4968,14 +4968,14 @@
       }
     },
     "product": {
-      "id": "aaf929f3-ec28-4ef6-ab6c-ef0b941a5f57",
+      "id": "148",
       "type": "20' Dry",
       "dangerous": false,
       "quantity": 1
     },
     "offer": {
-      "validFrom": null,
-      "validUntil": null,
+      "validFrom": "2026-01-01",
+      "validUntil": "2026-01-31",
       "transitTime": "32",
       "transitDates": [
         {

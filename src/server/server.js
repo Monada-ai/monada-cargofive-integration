@@ -190,8 +190,8 @@ function convertCargofiveRateToMonadaRate({ rate, sourcePort, destinationPort, p
                 id: productId,
             },
             offer: {
-                validFrom: productPrice.valid_from || null,
-                validUntil: productPrice.valid_to || null,
+                validFrom: productPrice.valid_from || new Date(now()).toISOString().split('T')[0],
+                validUntil: productPrice.valid_to || endOfMonth(new Date(now())).toISOString().split('T')[0],
                 transitTime: schedule.transit_time || null,
                 transitDates: [{
                     etd: schedule.departure_date?.split('T')[0],
@@ -252,6 +252,10 @@ function convertCargofiveRateToMonadaRate({ rate, sourcePort, destinationPort, p
 
 function productToCargoDetails({ product }) {
     return product.quantity + 'x' + productToIso(product.type) + 'x15000'
+}
+
+function endOfMonth(date) {
+    return new Date(date.getFullYear(), date.getMonth() + 1, 0, 23, 59, 59, 999);
 }
 
 module.exports = { Server, ConfigurationErrorException, InvalidTokenException, TooManyRequestsException };
