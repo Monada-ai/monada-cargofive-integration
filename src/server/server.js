@@ -171,11 +171,11 @@ function convertCargofiveRateToMonadaRate({ rate, sourcePort, destinationPort, p
             transportationMethod: 'sea',
             source: productOffer.origin_port_unlocode === sourcePort.id ? sourcePort : {
                 text: productOffer.origin_port_display_name,
-                code: productOffer.origin_port_unlocode,
+                id: productOffer.origin_port_unlocode,
             },
             destination: productOffer.destination_port_unlocode === destinationPort.id ? destinationPort : {
                 text: productOffer.destination_port_display_name,
-                code: productOffer.destination_port_unlocode,
+                id: productOffer.destination_port_unlocode,
             },
             supplier: {
                 organization: productOffer.main_carrier_name,
