@@ -1,6 +1,6 @@
 {
     "name": "@monada-ai/monada-cargofive-integration",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "description": "All that is needed to integrate CargoFive into monada (server & client code)",
     "main": "./dist/",
     "publishConfig": {
