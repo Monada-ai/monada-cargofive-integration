@@ -203,7 +203,7 @@ function convertCargofiveRateToMonadaRate({ rate, sourcePort, destinationPort, p
                     available: productOffer.rate_status === 'Valid',
                     count: null // Cargofive example doesn't specify stock count
                 },
-                transshipment: productOffer.via_port?.join(', ') || '',
+                transshipment: productOffer.via_port?.map(p => p.display_name).join(', ') || '',
                 sections: sections
             },
             notes: _.map(productOffer.rate_details?.additional_data, (value, key) => {
