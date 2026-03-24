@@ -377,6 +377,68 @@ test('[Task] Rate includes valid offer dates and transit information', async () 
     });
 });
 
+test('[convertCargofiveRateToMonadaRate] Correctly sets source port type when sourcePort does not match productOffer.origin_port_unlocode', async () => {
+    const server = new CargofiveServer({
+        apiKey: 'TEST_API_KEY',
+        serverUri: 'http://localhost:9999/api',
+        verbose: false
+    });
+
+    // sourcePort.id (DEHAM) intentionally differs from the simulated response's origin_port_unlocode (ILHFA)
+    const sourcePort = {
+        id: 'DEHAM',
+        externalIds: { cargofiveId: '296' }
+    };
+
+    const destinationPort = {
+        id: 'PTLIS',
+        externalIds: { cargofiveId: '580' }
+    };
+
+    const result = await run(server, { sourcePort, destinationPort });
+
+    expect(result.length).toBeGreaterThan(0);
+    result.forEach(rate => {
+        expect(rate.source).toEqual({
+            type: 'port',
+            text: 'Haifa',
+            id: 'ILHFA',
+            countryCode: 'IL'
+        });
+    });
+});
+
+test('[convertCargofiveRateToMonadaRate] Correctly sets destination port type when destinationPort does not match productOffer.destination_port_unlocode', async () => {
+    const server = new CargofiveServer({
+        apiKey: 'TEST_API_KEY',
+        serverUri: 'http://localhost:9999/api',
+        verbose: false
+    });
+
+    const sourcePort = {
+        id: 'ILHFA',
+        externalIds: { cargofiveId: '296' }
+    };
+
+    // destinationPort.id (SGSIN) intentionally differs from the simulated response's destination_port_unlocode (PTLIS)
+    const destinationPort = {
+        id: 'SGSIN',
+        externalIds: { cargofiveId: '580' }
+    };
+
+    const result = await run(server, { sourcePort, destinationPort });
+
+    expect(result.length).toBeGreaterThan(0);
+    result.forEach(rate => {
+        expect(rate.destination).toEqual({
+            type: 'port',
+            text: 'Lisbon',
+            id: 'PTLIS',
+            countryCode: 'PT'
+        });
+    });
+});
+
 test('[Task] Response matches EXPECTED_RESULT structure and values', async () => {
     const cargofiveServer = new CargofiveServer({ 
         apiKey: 'TEST_API_KEY',
