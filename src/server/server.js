@@ -56,19 +56,26 @@ function Server({ apiKey, serverUri = PRODUCTION_URI, uuidv4 = _uuidv4, now = _n
                     console.log('[CargoFive] Rates request:', `${baseUrl}/v1/public/rates?${new URLSearchParams(params).toString()}`);
                 }
 
-                // Try to search rates by origin/destination
-                const { data: ratesResponse } = await axios.get(
-                    `${baseUrl}/v1/public/rates?${new URLSearchParams(params).toString()}`,
-                    { 
+                // Search rates by origin/destination. CargoFive paginates the result set
+                // (default 25 per page) and reports total_pages — so we must walk every page,
+                // otherwise we silently drop the bulk of the rates (e.g. 25 of 155).
+                let page = 1;
+                let totalPages = 1;
+                const MAX_PAGES = 50; // safety cap against a misbehaving API
+                do {
+                    const url = `${baseUrl}/v1/public/rates?${new URLSearchParams({ ...params, page }).toString()}`;
+                    const { data: ratesResponse } = await axios.get(url, {
                         headers: { 'x-api-key': apiKey },
-                    }
-                );
+                    });
 
-                if (verbose) {
-                    console.log('[CargoFive] Rates response:', JSON.stringify(ratesResponse.data, null, 2));
-                }
-                
-                rates = ratesResponse?.offers?.rates || [];
+                    if (verbose) {
+                        console.log(`[CargoFive] Rates response page ${page}/${ratesResponse?.total_pages ?? '?'} (total_records ${ratesResponse?.total_records ?? '?'}):`, JSON.stringify(ratesResponse.data, null, 2));
+                    }
+
+                    rates = rates.concat(ratesResponse?.offers?.rates || []);
+                    totalPages = Number(ratesResponse?.total_pages) || 1;
+                    page += 1;
+                } while (page <= totalPages && page <= MAX_PAGES);
             } catch (e) {
                 throw e;
             }
